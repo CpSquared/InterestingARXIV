@@ -1,11 +1,11 @@
 :root{
-    --bg1: #f4f7fb;          /* page background (very light) */
-    --bg2: #e9eef6;          /* subtle gradient */
-    --card: #ffffff;         /* card background */
-    --card-border: #d6deea;  /* soft border */
-    --text: #1f2937;         /* main text (dark gray, not black) */
-    --muted: #312f2f;        /* secondary text */
-    --accent: #2563eb;       /* academic blue */
+    --bg1: #f4f7fb;
+    --bg2: #e9eef6;
+    --card: #ffffff;
+    --card-border: #d6deea;
+    --text: #1f2937;
+    --muted: #312f2f;
+    --accent: #2563eb;
   }
   
   * { box-sizing: border-box; }
@@ -22,43 +22,57 @@
     line-height: 1.5;
   }
   
-  /* Basic typography */
   a{ color: var(--accent); }
   a:hover{ text-decoration: underline; }
   
-  hr{
-    border: 0;
-    border-top: 1px solid var(--card-border);
-    margin: 18px 0;
-  }
-  
-  /* Page layout:
-     Your current HTML doesn't have a .container wrapper, so we style body children nicely. */
-  body > *{
+  /* Layout */
+  .container{
     max-width: 920px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 0 auto;
+    padding: 56px 20px;
   }
   
-  /* Add vertical spacing at top/bottom of the page */
-  body > h1:first-of-type{
-    padding-top: 56px;
-    margin-top: 0;
-  }
+  header{ margin-bottom: 28px; }
   
-  body > p:last-of-type{
-    padding-bottom: 56px;
-  }
-  
-  /* Title/subtitle look (works with your existing <h1> and first <p>) */
-  h1{
+  .title{
     font-size: clamp(28px, 4vw, 44px);
     line-height: 1.1;
     letter-spacing: -0.02em;
     margin: 0 0 10px 0;
     color: #111827;
+  }
+  
+  .subtitle{
+    margin: 0 0 14px 0;
+    color: var(--muted);
+    font-size: 16px;
+    max-width: 65ch;
+  }
+  
+  /* Status pill */
+  #status{
+    display: inline-block;
+    margin: 0;
+    padding: 10px 12px;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+    color: var(--text);
+  }
+  
+  /* Card wrapper (My list) */
+  .card{
+    background: rgba(255,255,255,0.75);
+    border: 1px solid var(--card-border);
+    border-radius: 18px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    margin-bottom: 24px;
   }
   
   h2{
@@ -67,41 +81,16 @@
     letter-spacing: -0.01em;
   }
   
-  p{
-    color: var(--muted);
-    margin: 10px 0;
-  }
-  
-  /* Status pill */
-  #status{
-    display: inline-block;
-    padding: 10px 12px;
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
-    background: rgba(255,255,255,0.65);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
-  }
-  
-  /* The list container */
-  #papers{
-    margin-top: 12px;
-  }
-  
-  /* Map your existing .paper markup to your desired "seminar/card" look */
+  /* Paper cards */
   .paper{
-    padding: 18px 18px;
-    border-radius: 18px;
+    padding: 16px 16px;
+    border-radius: 14px;
     border: 1px solid var(--card-border);
-    background: rgba(255,255,255,0.75);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-    margin-bottom: 18px;
+    background: rgba(255,255,255,0.85);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    margin-bottom: 14px;
   }
   
-  /* Title */
   .paper-title{
     margin: 0 0 8px 0;
     font-weight: 650;
@@ -117,28 +106,25 @@
     text-decoration: underline;
   }
   
-  /* Authors */
   .paper-authors{
     margin: 0 0 8px 0;
     color: var(--muted);
     font-size: 14px;
   }
   
-  /* Links row */
   .paper-links{
     margin: 0 0 10px 0;
     font-size: 14px;
     color: var(--muted);
   }
   
-  /* Abstract */
   .paper-abstract{
     margin: 0;
     color: var(--text);
     font-size: 15px;
   }
   
-  /* Optional "tag" class (not used yet, but ready for later) */
+  /* Optional tag (ready for later) */
   .tag{
     display: inline-block;
     padding: 4px 12px;
@@ -150,4 +136,10 @@
     letter-spacing: 0.02em;
     margin-right: 10px;
     transform: translateY(-1px);
+  }
+  
+  footer{
+    margin-top: 18px;
+    color: var(--muted);
+    font-size: 13px;
   }
