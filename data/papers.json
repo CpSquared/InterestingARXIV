@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "id": "2601.10674",
+    "url": "https://arxiv.org/abs/2601.10674v1",
+    "pdf_url": null,
+    "title": "Energy Correlators in Warped Geometries",
+    "authors": [
+      "Lorenzo Ricci",
+      "Raman Sundrum"
+    ],
+    "abstract": "We study Energy Correlators as probes of strongly-coupled nearly-conformal field theories within their holographically dual descriptions, focusing on the important features that appear in realistic theories going beyond the standard model. In particular, we study warped geometries which asymptote to $\\text{AdS}_5$, as well as IR-truncations dual to a 4D gap. Our correlators are computed by in-in type Witten perturbative diagrams, corresponding to a large-N expansion of the strong dynamics. We describe how this sets the stage for phenomenological applications for collider searches beyond the standard model as well as for new theoretical explorations in Lorentzian holography.",
+    "published": "2026-01-15T18:38:04Z",
+    "primary_category": "hep-th"
+  }
+]
