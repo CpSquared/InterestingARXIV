@@ -80,7 +80,7 @@ def fetch_metadata_for_ids(id_list):
     base = "http://export.arxiv.org/api/query?id_list="
     joined = ",".join(id_list)
     url = base + joined
-    resp = requests.get(url, headers={"User-Agent": "InterestingARXIV/1 (mailto:your-email@example.com)"}, timeout=30)
+    resp = requests.get(url,headers={"User-Agent": "InterestingARXIV/1"},timeout=30)
     resp.raise_for_status()
     feed = feedparser.parse(resp.text)
     results = {}

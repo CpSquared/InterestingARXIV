@@ -1,47 +1,153 @@
-/* Base */
-body {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 0 16px;
+:root{
+    --bg1: #f4f7fb;          /* page background (very light) */
+    --bg2: #e9eef6;          /* subtle gradient */
+    --card: #ffffff;         /* card background */
+    --card-border: #d6deea;  /* soft border */
+    --text: #1f2937;         /* main text (dark gray, not black) */
+    --muted: #312f2f;        /* secondary text */
+    --accent: #2563eb;       /* academic blue */
+  }
+  
+  * { box-sizing: border-box; }
+  
+  body{
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(900px 600px at 20% 10%, rgba(120,166,255,0.25), transparent 60%),
+      radial-gradient(700px 500px at 80% 30%, rgba(120,255,200,0.18), transparent 55%),
+      linear-gradient(180deg, var(--bg1), var(--bg2));
+    min-height: 100vh;
     line-height: 1.5;
   }
   
-  h1 { margin-bottom: 8px; }
-  h2 { margin-top: 28px; }
+  /* Basic typography */
+  a{ color: var(--accent); }
+  a:hover{ text-decoration: underline; }
   
-  #status {
-    padding: 10px 12px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    display: inline-block;
+  hr{
+    border: 0;
+    border-top: 1px solid var(--card-border);
+    margin: 18px 0;
   }
   
-  /* Paper cards */
-  .paper {
-    padding: 14px 16px;
-    margin: 14px 0;
-    border: 1px solid #e5e5e5;
-    border-radius: 10px;
+  /* Page layout:
+     Your current HTML doesn't have a .container wrapper, so we style body children nicely. */
+  body > *{
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
-  .paper-title {
-    margin: 0 0 6px 0;
-    font-size: 1.15rem;
+  /* Add vertical spacing at top/bottom of the page */
+  body > h1:first-of-type{
+    padding-top: 56px;
+    margin-top: 0;
   }
   
-  .paper-authors {
-    margin: 0 0 6px 0;
+  body > p:last-of-type{
+    padding-bottom: 56px;
   }
   
-  .paper-links {
+  /* Title/subtitle look (works with your existing <h1> and first <p>) */
+  h1{
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
     margin: 0 0 10px 0;
+    color: #111827;
   }
   
-  .paper-abstract {
+  h2{
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    letter-spacing: -0.01em;
+  }
+  
+  p{
+    color: var(--muted);
+    margin: 10px 0;
+  }
+  
+  /* Status pill */
+  #status{
+    display: inline-block;
+    padding: 10px 12px;
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    background: rgba(255,255,255,0.65);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+  }
+  
+  /* The list container */
+  #papers{
+    margin-top: 12px;
+  }
+  
+  /* Map your existing .paper markup to your desired "seminar/card" look */
+  .paper{
+    padding: 18px 18px;
+    border-radius: 18px;
+    border: 1px solid var(--card-border);
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    margin-bottom: 18px;
+  }
+  
+  /* Title */
+  .paper-title{
+    margin: 0 0 8px 0;
+    font-weight: 650;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+  }
+  
+  .paper-title a{
+    text-decoration: none;
+  }
+  
+  .paper-title a:hover{
+    text-decoration: underline;
+  }
+  
+  /* Authors */
+  .paper-authors{
+    margin: 0 0 8px 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  
+  /* Links row */
+  .paper-links{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    color: var(--muted);
+  }
+  
+  /* Abstract */
+  .paper-abstract{
     margin: 0;
+    color: var(--text);
+    font-size: 15px;
   }
   
-  /* Make long abstracts easier to read */
-  .paper-abstract {
-    white-space: normal;
+  /* Optional "tag" class (not used yet, but ready for later) */
+  .tag{
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin-right: 10px;
+    transform: translateY(-1px);
   }
