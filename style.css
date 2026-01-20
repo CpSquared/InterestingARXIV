@@ -1,0 +1,47 @@
+/* Base */
+body {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+    line-height: 1.5;
+  }
+  
+  h1 { margin-bottom: 8px; }
+  h2 { margin-top: 28px; }
+  
+  #status {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: inline-block;
+  }
+  
+  /* Paper cards */
+  .paper {
+    padding: 14px 16px;
+    margin: 14px 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+  }
+  
+  .paper-title {
+    margin: 0 0 6px 0;
+    font-size: 1.15rem;
+  }
+  
+  .paper-authors {
+    margin: 0 0 6px 0;
+  }
+  
+  .paper-links {
+    margin: 0 0 10px 0;
+  }
+  
+  .paper-abstract {
+    margin: 0;
+  }
+  
+  /* Make long abstracts easier to read */
+  .paper-abstract {
+    white-space: normal;
+  }
