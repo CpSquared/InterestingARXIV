@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HEP Research at Weizmann</title>
+
+  <style>
+    :root{
+  --bg1: #f4f7fb;          /* page background (very light) */
+  --bg2: #e9eef6;          /* subtle gradient */
+  --card: #ffffff;        /* seminar card background */
+  --card-border: #d6deea; /* soft border */
+  --text: #1f2937;        /* main text (dark gray, not black) og: #1f2937 */  
+  --muted: #312f2f;       /* secondary text og: #4b5563  */
+  --accent: #2563eb;      /* academic blue */
+}
+
+    * { box-sizing: border-box; }
+    body{
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(900px 600px at 20% 10%, rgba(120,166,255,0.25), transparent 60%),
+        radial-gradient(700px 500px at 80% 30%, rgba(120,255,200,0.18), transparent 55%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      min-height: 100vh;
+    }
+
+    .container{
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 56px 20px;
+    }
+
+    header{
+      margin-bottom: 28px;
+    }
+
+    .title{
+      font-size: clamp(28px, 4vw, 44px);
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin: 0 0 10px 0;
+      color: #111827;   /* slightly darker for emphasis */
+    }
+
+    .subtitle{
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 65ch;
+    }
+
+    .card{
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 18px;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 22px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+      margin-bottom: 24px;
+    }
+
+    h2{
+      margin: 0 0 12px 0;
+      font-size: 20px;
+      letter-spacing: -0.01em;
+    }
+
+    .seminars{
+      display: grid;
+      gap: 12px;
+      margin-top: 12px;
+    }
+
+    
+    .seminar{
+      padding: 14px 14px;
+      border-radius: 14px;
+      border: 2px solid rgba(0, 0, 0, 1);
+      background: rgba(0,0,0,0.12);
+      margin-bottom: 18px;
+    }
+
+    
+
+
+    .seminar-title{
+      margin: 0 0 6px 0;
+      font-weight: 650;
+    }
+
+    .meta{
+      margin: 0 0 8px 0;;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .meta-bold{
+      margin: 0 0 8px 0;;
+      color: var(--muted);
+      font-weight: 650;
+      font-size: 14px;
+    }
+
+    .tag{
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+
+  background: #2563eb;      /* solid blue */
+  color: #ffffff;           /* white text */
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  margin-right: 10px;
+  transform: translateY(-1px);
+}
+
+    footer{
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    a{ color: var(--accent); }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1 class="title">HEP Research at the Weizmann Institute of Science</h1>
+      <p class="subtitle">
+        Updates on group activity, upcoming talks, and seminar information.
+      </p>
+    </header>
+
+    <main class="card">
+      <h2>Upcoming Talks</h2>
+
+      <div class="seminars">      
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || START || -->
+        <div class="seminar">
+          <p class="seminar-title">
+            <span class="tag">Group meeting - Gilad Perez</span>
+             The Strong CP Problem and a U(1)-Embedded Hiller-Schmaltz Framework for Ultralight Dark Matter and CKM Oscillations.
+          </p>
+          <p class="meta">
+            Speaker: Ilay bar.
+          </p>
+          <p class="meta">
+            Affiliation: Ph.D. student with Prof. Gilad Perez, at Weizmann Institute of Science, Israel.
+          </p>
+           <p class="meta">
+            Seminar starts at: 13:00, Israel time.
+          </p>
+          <p class="meta">
+            Refreshments served at: 12:30, Israel time.
+          </p>
+          <p class="meta-bold">
+            Date:  21 January, Wednesday. 
+          </p>
+          <p class="meta">
+            Venue:  Physics library. 
+          </p> 
+          <p class="meta">
+            Zoom link:  <a href="https://weizmann.zoom.us/j/99308870087?pwd=15Hyrfi0vBpLjcg0YzRFihk7sZQuVW.1">Zoom (TBA).</a> 
+          </p>
+          <p class="meta">
+            Abstract: The nature of the strong CP problem remains the subject of ongoing discussion: while the observed smallness of θˉ is often taken to indicate new physics, it is still worth examining whether this interpretation is strictly required. After reviewing the status of the problem and some of the proposed solutions, I will present a model based on the Hiller–Schmaltz (HS) mechanism in which CP is embedded into a continuous U(1) symmetry. In this framework, the HS mechanism naturally yields an ultralight dark-matter (ULDM) candidate in the form of a Goldstone boson, together with its full supermultiplet that needs to decouple at low energies. The resulting oscillatory ULDM field induces time-dependent modifications of the CKM flavor parameters. I will discuss the structure of the model, the origin of the Goldstone mode, and the phenomenological consequences for quark mixing, including potential observational signatures.
+          </p>
+        </div>
+
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || END || -->
+
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || START || -->
+        <div class="seminar">
+          <p class="seminar-title">
+            <span class="tag">Group meeting - Gilad Perez</span>
+            The Sommerfeld enhancement at NLO and the dark matter unitarity bound.
+          </p>
+          <p class="meta">
+            Speaker: Dr. Salvatore Bottaro.
+          </p>
+          <p class="meta">
+            Affiliation: PostDoc with Prof. Gilad Perez, at Weizmann Institute of Science, Israel.
+          </p>
+           <p class="meta">
+            Seminar starts at: 13:00, Israel time.
+          </p>
+          <p class="meta">
+            Refreshments served at: 12:30, Israel time.
+          </p>
+          <p class="meta-bold">
+            Date:  28 January, Wednesday. 
+          </p>
+          <p class="meta">
+            Venue:  Physics library. 
+          </p> 
+          <p class="meta">
+            Zoom link:  <a href="https://weizmann.zoom.us/j/99308870087?pwd=15Hyrfi0vBpLjcg0YzRFihk7sZQuVW.1">Zoom (TBA).</a> 
+          </p>
+          <p class="meta">
+            Abstract: We reexamine the consequences of perturbative unitarity on dark matter freeze-out when both Sommerfeld enhancement and bound state formation affect dark matter annihilations. At leading order (LO) the annihilation cross-section is infrared dominated and the connection between the unitarity bound and the upper bound on the dark matter mass depends only on how the different partial waves are populated. We compute how this picture is modified at next-to-leading order (NLO) with the goal of assigning a reliable theory uncertainty to the freeze-out predictions. We explicitly compute NLO corrections in a simple model with abelian gauge interactions and provide an estimate of the theoretical uncertainty for the thermal masses of heavy electroweak n-plets. Along the way, we clarify the regularization and matching procedure necessary to deal with singular potentials in quantum mechanics with a calculable, relativistic UV completion. Based on the work, <a href="https://arxiv.org/pdf/2305.01680">arXiv:2305.01680.</a>
+          </p>
+        </div>
+
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || END || -->
+
+
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || START || -->
+
+        <div class="seminar">
+          <p class="seminar-title">
+            <span class="tag">Joint AMOS-DPPA seminar</span>
+            Dark Matter Recoherence
+          </p>
+          <p class="meta">
+            Speaker: Chaitanya Paranjape.
+          </p>
+          <p class="meta">
+            Affiliation: Ph.D. student with Prof. Gilad Perez, at Weizmann Institute of Science, Israel.
+          </p>
+           <p class="meta">
+            Seminar starts at: 13:00, Israel time.
+          </p>
+          <p class="meta">
+            Refreshments served at: 12:30, Israel time.
+          </p>
+          <p class="meta-bold">
+            Date:  18 February, Wednesday. 
+          </p>
+          <p class="meta">
+            Venue:  Weissman Auditorium. 
+          </p>
+           <p class="meta">
+            Zoom link:  <a href="https://weizmann.zoom.us/j/99308870087?pwd=15Hyrfi0vBpLjcg0YzRFihk7sZQuVW.1">Zoom (TBA).</a>
+          </p>
+          <p class="meta">
+            Abstract: The local solar gravitational potential forms a basin for ultralight dark matter (ULDM), with discrete energy levels. 
+            Even if barely populated, it introduces a new characteristic timescale in DM dynamics. This necessitates a generalization of the notion of coherence time. 
+            We find that, at long times, the phenomenon of recoherence emerges, whereby a subcomponent of ULDM exhibits a formally divergent coherence time. 
+            The fact that this generalized coherence time can significantly exceed the naive estimate implies an enhanced sensitivity for dark matter searches 
+            that accumulate data over extended observation periods. Based on the work, <a href="https://arxiv.org/pdf/2601.00955">arXiv:2601.00955.</a>
+          </p>
+        </div>
+
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || END || -->
+
+
+      </div>
+
+    </main>
+
+    <main class="card">
+      <h2>General Group Updates</h2>
+
+      <div class="seminars">
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || START || -->
+        <div class="seminar">
+          <p class="seminar-title">
+            <span class="tag">Visitor</span>
+            Dr. Andrea Caputo
+          </p>
+          <p class="meta">
+            Affiliation: CERN and U. Rome La Sapienza (main)
+          </p>
+          <p class="meta-bold">
+            Visiting from: December 2025, To:  TBA. 
+          </p>
+          <p class="meta">
+            Inspire: <a href="https://inspirehep.net/authors/1498218">Andrea Caputo.</a>
+          </p>
+        </div>
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || END || -->
+
+        
+      </div>
+
+    </main>
+
+    <main class="card">
+      <h2>Contact</h2>
+
+      <div class="seminars">
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || START || -->
+        <div class="seminar">
+          <p class="meta">
+            Please write to : chaitanya.paranjape@weizmann.ac.il , to include notifications, updates, and announcements on this webpage.
+          </p>
+        </div>
+        <!-- SEMINAR ITEM (copy/paste this block to add more) || END || -->
+
+        
+      </div>
+
+    </main>
+  </div>
+</body>
+</html>
