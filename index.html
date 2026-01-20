@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Interesting arXiv Papers</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1>Interesting arXiv Papers</h1>
+  <div class="container">
+    <header>
+      <h1 class="title">Interesting arXiv Papers</h1>
+      <p class="subtitle">This site is a curated list of arXiv papers I find interesting.</p>
+      <p id="status">Loading papers…</p>
+    </header>
 
-  <p>
-    This site is a curated list of arXiv papers I find interesting.
-  </p>
+    <div class="card">
+      <h2>My list</h2>
 
-  <!-- JS status output -->
-  <p id="status">Loading papers…</p>
+      <div id="papers">
+        <p>Loading list…</p>
+      </div>
+    </div>
 
-  <hr>
-
-  <h2>My list</h2>
-
-  <!-- App will render papers here -->
-  <div id="papers">
-    <!-- (placeholder text until we render via JS) -->
-    <p>Loading list…</p>
+    <footer>🚧 Site under construction.</footer>
   </div>
 
-  <hr>
-
-  <p>🚧 Site under construction.</p>
-
   <script src="app.js?v=1"></script>
-
 </body>
 </html>
