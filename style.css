@@ -1,14 +1,17 @@
 :root{
     --bg1: #f4f7fb;
     --bg2: #e9eef6;
-    --card: #ffffff;
-    --card-border: #d6deea;
-    --text: #1f2937;
-    --muted: #312f2f;
+    --text: #111827;
+    --muted: #374151;
     --accent: #2563eb;
+  
+    /* Card palette to match your example */
+    --card-bg: rgba(0,0,0,0.10);
+    --card-border: rgba(0,0,0,0.95);
+    --pill: #2563eb;
   }
   
-  * { box-sizing: border-box; }
+  *{ box-sizing: border-box; }
   
   body{
     margin: 0;
@@ -19,86 +22,106 @@
       radial-gradient(700px 500px at 80% 30%, rgba(120,255,200,0.18), transparent 55%),
       linear-gradient(180deg, var(--bg1), var(--bg2));
     min-height: 100vh;
-    line-height: 1.5;
   }
   
-  a{ color: var(--accent); }
-  a:hover{ text-decoration: underline; }
-  
-  /* Layout */
+  /* ===== Layout / hero header (like your title screenshot) ===== */
   .container{
-    max-width: 920px;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 56px 20px;
+    padding: 90px 22px 56px; /* more breathing room at top */
   }
   
-  header{ margin-bottom: 28px; }
+  header{
+    margin-bottom: 28px;
+  }
   
   .title{
-    font-size: clamp(28px, 4vw, 44px);
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    margin: 0 0 10px 0;
-    color: #111827;
+    font-size: clamp(40px, 5vw, 64px);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 14px 0;
+    font-weight: 850;
   }
   
   .subtitle{
-    margin: 0 0 14px 0;
+    margin: 0 0 18px 0;
     color: var(--muted);
-    font-size: 16px;
-    max-width: 65ch;
+    font-size: 18px;
+    max-width: 70ch;
   }
   
-  /* Status pill */
+  /* Status pill (keep but make it quieter) */
   #status{
     display: inline-block;
     margin: 0;
-    padding: 10px 12px;
-    border: 1px solid var(--card-border);
-    border-radius: 12px;
+    padding: 10px 14px;
+    border-radius: 14px;
     background: rgba(255,255,255,0.65);
+    border: 1px solid rgba(0,0,0,0.12);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.10);
-    color: var(--text);
+    color: #111827;
+    font-size: 14px;
   }
   
-  /* Card wrapper (My list) */
+  /* ===== Section wrapper (optional) ===== */
   .card{
-    background: rgba(255,255,255,0.75);
-    border: 1px solid var(--card-border);
-    border-radius: 18px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    padding: 22px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
-    margin-bottom: 24px;
+    background: transparent;   /* let paper cards be the main visual */
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+    margin-top: 22px;
   }
   
   h2{
-    margin: 0 0 12px 0;
-    font-size: 20px;
-    letter-spacing: -0.01em;
+    margin: 0 0 14px 0;
+    font-size: 28px;
+    letter-spacing: -0.02em;
   }
   
-  /* Paper cards */
+  /* Links */
+  a{ color: var(--accent); text-decoration: underline; }
+  a:hover{ text-decoration: underline; }
+  
+  /* ===== Paper card styling to match your screenshot ===== */
   .paper{
-    padding: 16px 16px;
-    border-radius: 14px;
-    border: 1px solid var(--card-border);
-    background: rgba(255,255,255,0.85);
-    box-shadow: 0 10px 24px rgba(0,0,0,0.08);
-    margin-bottom: 14px;
+    background: var(--card-bg);
+    border: 3px solid var(--card-border);
+    border-radius: 22px;
+    padding: 18px 18px 18px 18px;
+    margin: 18px 0;
   }
   
+  /* top row: tag + title */
+  .paper-top{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .tag{
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--pill);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  /* Title */
   .paper-title{
-    margin: 0 0 8px 0;
-    font-weight: 650;
-    font-size: 18px;
-    letter-spacing: -0.01em;
+    margin: 0;
+    font-weight: 800;
+    font-size: 28px;
+    letter-spacing: -0.02em;
   }
   
   .paper-title a{
+    color: #111827;
     text-decoration: none;
   }
   
@@ -106,40 +129,28 @@
     text-decoration: underline;
   }
   
+  /* Meta lines like “Speaker: …” vibe */
   .paper-authors{
-    margin: 0 0 8px 0;
-    color: var(--muted);
-    font-size: 14px;
+    margin: 10px 0 6px 0;
+    font-size: 18px;
+    color: #111827;
   }
   
   .paper-links{
-    margin: 0 0 10px 0;
-    font-size: 14px;
-    color: var(--muted);
+    margin: 0 0 12px 0;
+    font-size: 16px;
   }
   
   .paper-abstract{
     margin: 0;
-    color: var(--text);
-    font-size: 15px;
+    color: #111827;
+    font-size: 16px;
+    line-height: 1.45;
   }
   
-  /* Optional tag (ready for later) */
-  .tag{
-    display: inline-block;
-    padding: 4px 12px;
-    border-radius: 999px;
-    background: #2563eb;
-    color: #ffffff;
-    font-size: 12px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    margin-right: 10px;
-    transform: translateY(-1px);
-  }
-  
+  /* Footer */
   footer{
-    margin-top: 18px;
+    margin-top: 26px;
     color: var(--muted);
-    font-size: 13px;
+    font-size: 14px;
   }

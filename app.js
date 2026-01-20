@@ -20,11 +20,17 @@ function escapeHtml(s) {
     const pdf = p.pdf_url || `https://arxiv.org/pdf/${p.id}.pdf`;
     const abstract = p.abstract ? escapeHtml(p.abstract) : "";
   
+    // Tag: prefer primary_category if present, else “arXiv paper”
+    const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
+  
     return `
       <div class="paper">
-        <h3 class="paper-title">
-          <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">${title}</a>
-        </h3>
+        <div class="paper-top">
+          <span class="tag">${tagText}</span>
+          <h3 class="paper-title">
+            <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">${title}</a>
+          </h3>
+        </div>
   
         ${authors ? `<div class="paper-authors">${authors}</div>` : ""}
   
