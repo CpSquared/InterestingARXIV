@@ -1,0 +1,4 @@
+# Interesting arXiv papers
+# One arXiv abs link per line
+
+https://arxiv.org/abs/2601.10674
