@@ -11,5 +11,17 @@
     "abstract": "We study Energy Correlators as probes of strongly-coupled nearly-conformal field theories within their holographically dual descriptions, focusing on the important features that appear in realistic theories going beyond the standard model. In particular, we study warped geometries which asymptote to $\\text{AdS}_5$, as well as IR-truncations dual to a 4D gap. Our correlators are computed by in-in type Witten perturbative diagrams, corresponding to a large-N expansion of the strong dynamics. We describe how this sets the stage for phenomenological applications for collider searches beyond the standard model as well as for new theoretical explorations in Lorentzian holography.",
     "published": "2026-01-15T18:38:04Z",
     "primary_category": "hep-th"
+  },
+  {
+    "id": "2601.07165",
+    "url": "https://arxiv.org/abs/2601.07165v1",
+    "pdf_url": null,
+    "title": "Perspectives on QCD, Topology and the Strong CP Problem",
+    "authors": [
+      "Anthony G. Williams"
+    ],
+    "abstract": "On the basis of allowed local gauge symmetries, the QCD Lagrangian admits a CP-violating term proportional to the topological charge density, commonly referred to as the $θ$ term. A priori, any value of $θ$ is consistent with the local symmetries of the theory, while current experimental limits constrain $θ\\lesssim 10^{-10}$. The apparent extreme smallness of this parameter is known as the strong $CP$ problem.  In this work, we provide a careful critical overview of the conceptual assumptions underlying the $θ$ term, focusing on the roles of topology, the definition of topological charge density, rough gauge field configurations, instantons, and anomalies. We contrast the assumptions required to describe QCD at nonzero $θ$ with those sufficient at $θ= 0$, and argue that a vanishing $θ$ term is compatible with a formulation based solely on local gauge invariance and causal locality, without invoking additional global structure.  The perspective developed here is intended as a conceptual analysis of the standard formulation of the strong $CP$ problem. It does not challenge the internal consistency of QCD at nonzero $θ$, nor does it diminish the independent theoretical and phenomenological motivation for axion and axion-like particle physics, which are well-motivated extensions of the Standard Model.",
+    "published": "2026-01-12T03:21:46Z",
+    "primary_category": "hep-ph"
   }
 ]

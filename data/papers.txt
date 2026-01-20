@@ -1,4 +1,10 @@
 # Interesting arXiv papers
 # One arXiv abs link per line
 
+# Run Following command from Repository Repository
+
+# python scripts/update_papers.py
+
 https://arxiv.org/abs/2601.10674
+
+https://arxiv.org/pdf/2601.07165
