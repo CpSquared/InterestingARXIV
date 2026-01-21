@@ -139,5 +139,17 @@
     "abstract": "In order to solve the strong CP problem, we study the possibility that the Peccei--Quinn symmetry is broken {\\it below}\\/ the QCD scale. We find that a QCD axion can be above GeV, and may be among the observed $η$ resonances. It is immune to quantum gravity corrections. The only fermion that has a $U(1)$ Peccei--Quinn charge is the right-handed up quark. Flavor-changing neutral currents are surprisingly small, except for a possible but not necessary contribution to $D^0$--$\\overline{D}^0$ mixing. All accelerator and astrophysical limits can be evaded. The most significant constraint is the mass splitting between $π^\\pm$ and $π^0$. In a UV completed model, LHC can look for a dijet resonance in $u\\bar{u}$, $u\\bar{d}$, $d\\bar{u}$ channels.",
     "published": "2026-01-05T19:00:00Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.12650",
+    "url": "https://arxiv.org/abs/2601.12650v1",
+    "pdf_url": null,
+    "title": "QCD-Like Theories with Different Color Numbers",
+    "authors": [
+      "Toru Kojo"
+    ],
+    "abstract": "Quantum chromodynamics (QCD) with a general number of colors, $\\Nc$, provides a powerful theoretical laboratory to explore the dynamics of non-Abelian gauge theories. Although $\\Nc =3$ does not look a large number, the $1/\\Nc$ expansion provides us with a very useful classification and book-keeping scheme for hadronic processes and sharpens conceptions otherwise obscured in real-world QCD with $\\Nc = 3$. Important applications are dense QCD matter where the first principle methods for QCD are not available and many conceptual issues remain to be clarified. In this chapter we first review hadrons at large $\\Nc$ from the viewpoint of quark-gluon dynamics, and then extend the discussions to hot/dense matter, focusing on confinement-deconfinement aspects. We emphasize how the large-$\\Nc$ limit provides a unified organizing principle for hadronic and quark degrees of freedom in regimes where first-principle methods are limited. Two-color and isospin QCD, for which lattice simulations at finite density can be performed for a special reason, is reviewed.",
+    "published": "2026-01-19T01:51:31Z",
+    "primary_category": "hep-ph"
   }
 ]
