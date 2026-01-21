@@ -101,18 +101,21 @@ function ensureRootContainers() {
 }
 
 function renderNav(categories) {
-  // A white box with links like: "Take me to: ... "
-  const links = categories
-    .map((c) => {
-      const href = `#cat-${c.id}`;
-      return `<a class="nav-a" href="${escapeHtml(href)}">${escapeHtml(c.title)}</a>`;
-    })
-    .join(" · ");
+  const items = categories
+    .map(
+      (c) => `
+        <div class="nav-item">
+          <a href="#cat-${escapeHtml(c.id)}">${escapeHtml(c.title)}</a>
+        </div>
+      `
+    )
+    .join("");
 
   return `
     <div class="section-card nav-card">
-      <div class="paper-title nav-link">
-        Take me to: ${links}
+      <div class="paper-title nav-header">Take me to:</div>
+      <div class="nav-list">
+        ${items}
       </div>
     </div>
   `;

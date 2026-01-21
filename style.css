@@ -199,6 +199,29 @@ summary.list-summary:hover .list-title{
   text-decoration: underline;
 }
 
+/* Navigation (Take me to) layout */
+.nav-header{
+  margin-bottom: 10px;
+}
+
+.nav-list{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nav-item a{
+  color: #111827;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-item a:hover{
+  text-decoration: underline;
+}
+
 html{
   scroll-behavior: smooth;
 }
+
