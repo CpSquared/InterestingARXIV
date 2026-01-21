@@ -1,8 +1,8 @@
 {
   "categories": [
-    { "id": "1", "title": "HEP-PH Disucssion !" },
+    { "id": "1", "title": "HEP Discussion !" },
     { "id": "2", "title": "Chat over a Coffee ?" },
     { "id": "3", "title": "Is this Interesting ??" },
-    { "id": "4", "title": "Nice for Academic Reading ???" }
+    { "id": "4", "title": "Good for Academic Reading ???" }
   ]
 }
