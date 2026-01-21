@@ -3,7 +3,7 @@
 
 # Run Following command from Repository Repository
 
-# python scripts/update_papers.py
+# python scripts/update_papers.py 
 
 
 https://arxiv.org/abs/2601.10674
@@ -11,3 +11,17 @@ https://arxiv.org/abs/2601.10674
 https://arxiv.org/pdf/2601.07165
 
 https://arxiv.org/pdf/2601.09784
+
+https://arxiv.org/pdf/2601.06816
+
+https://arxiv.org/pdf/2510.07371
+
+https://arxiv.org/pdf/2507.12519
+
+https://arxiv.org/pdf/2506.19182
+
+https://arxiv.org/pdf/2601.07361
+
+https://arxiv.org/pdf/2601.07420
+
+https://arxiv.org/pdf/2601.07420
