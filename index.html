@@ -14,9 +14,22 @@
       <p id="status">Loading papers…</p>
     </header>
 
-    <details class="card">
+    <!-- <details class="card">
       <summary class="list-summary">
         <span class="list-title">Coffee chats</span>
+      </summary>
+    
+      <div id="papers">
+        <p>Loading list…</p>
+      </div>
+    </details> -->
+
+    <details class="card" open>
+      <summary class="list-summary">
+        <!-- make the header a real link so hover/underline works in all browsers -->
+        <a href="#" class="list-title" onclick="event.preventDefault();">
+          Coffee chats
+        </a>
       </summary>
     
       <div id="papers">
