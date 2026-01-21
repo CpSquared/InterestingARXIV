@@ -151,5 +151,18 @@
     "abstract": "Quantum chromodynamics (QCD) with a general number of colors, $\\Nc$, provides a powerful theoretical laboratory to explore the dynamics of non-Abelian gauge theories. Although $\\Nc =3$ does not look a large number, the $1/\\Nc$ expansion provides us with a very useful classification and book-keeping scheme for hadronic processes and sharpens conceptions otherwise obscured in real-world QCD with $\\Nc = 3$. Important applications are dense QCD matter where the first principle methods for QCD are not available and many conceptual issues remain to be clarified. In this chapter we first review hadrons at large $\\Nc$ from the viewpoint of quark-gluon dynamics, and then extend the discussions to hot/dense matter, focusing on confinement-deconfinement aspects. We emphasize how the large-$\\Nc$ limit provides a unified organizing principle for hadronic and quark degrees of freedom in regimes where first-principle methods are limited. Two-color and isospin QCD, for which lattice simulations at finite density can be performed for a special reason, is reviewed.",
     "published": "2026-01-19T01:51:31Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2410.19678",
+    "url": "https://arxiv.org/abs/2410.19678v3",
+    "pdf_url": null,
+    "title": "Approaching Stable Quark Matter",
+    "authors": [
+      "Yang Bai",
+      "Ting-Kuo Chen"
+    ],
+    "abstract": "The determination of whether the ground state of baryon matter in Quantum Chromodynamics (QCD) is the ordinary nucleus or a quark matter state remains a long-standing question in physics. A critical parameter in this investigation is the bag parameter $B$, which quantifies the QCD vacuum energy and can be computed using nonperturbative methods such as Lattice QCD (LQCD). By combining the equation of state derived from perturbative QCD (pQCD) with the bag parameter to fit the LQCD-simulated data for isospin-dense matter, we address the stability of quark matter within the LQCD+pQCD framework. Our findings suggest that the current data imposes an upper bound on $B^{1/4} \\lesssim 160$ MeV, approaching a conclusive statement on quark matter stability. Given the lower bound on $B$ from the quark condensate contribution to the vacuum energy, the stable 2-flavor quark matter remains possible, whereas the stable 2+1-flavor quark matter is excluded, assuming complete deconfinement and chiral-symmetry restoration and the reliability of pQCD at baryon chemical potentials around the proton mass. Additionally, we derive more general thermodynamic bounds on the quark matter energy-per-baryon and $B$, which, while weaker, provide complementary insights.",
+    "published": "2024-10-25T16:37:56Z",
+    "primary_category": "hep-ph"
   }
 ]

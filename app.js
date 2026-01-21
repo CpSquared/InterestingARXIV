@@ -13,12 +13,26 @@ function authorsToString(authors) {
   return authors.join(", ");
 }
 
+function formatPublishedDate(published) {
+  if (!published) return "";
+  const d = new Date(published);
+  if (Number.isNaN(d.getTime())) return "";
+
+  // Example: "20 Jan 2026"
+  return d.toLocaleDateString(undefined, {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+  });
+}
+
 function makePaperCard(p) {
   const title = p.title ? escapeHtml(p.title) : escapeHtml(p.id);
   const authors = escapeHtml(authorsToString(p.authors));
   const abs = p.url || `https://arxiv.org/abs/${p.id}`;
   const pdf = p.pdf_url || `https://arxiv.org/pdf/${p.id}.pdf`;
   const abstract = p.abstract ? escapeHtml(p.abstract) : "";
+  const pubDate = formatPublishedDate(p.published);
 
   // Tag: use primary_category if present, else generic
   const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
@@ -38,7 +52,8 @@ function makePaperCard(p) {
         <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">arXiv</a>
         |
         <a href="${escapeHtml(pdf)}" target="_blank" rel="noopener noreferrer">PDF</a>
-      </div>
+        ${pubDate ? ` | <span class="paper-date">${escapeHtml(pubDate)}</span>` : ""}
+      </div>      
 
       ${abstract ? `<p class="paper-abstract">${abstract}</p>` : ""}
     </div>
