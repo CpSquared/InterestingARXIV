@@ -154,3 +154,20 @@
     color: var(--muted);
     font-size: 14px;
   }
+
+  /* White container that holds a whole collapsible list + its cards */
+.section-card{
+  background: rgba(255, 255, 255, 0.82);
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 18px;
+  padding: 18px 18px;
+  margin-top: 22px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* Inside the white container, you don't need extra outer spacing from details */
+.section-card details.card{
+  margin: 0;
+}
