@@ -75,11 +75,18 @@ async function main() {
 
     const papers = await resp.json();
 
-    // Sort by Updated date (newest first)
+    // // Sort by Updated date (newest first)
+    // const sorted = [...papers].sort((a, b) => {
+    //   const da = new Date(a.updated || a.published || "1970-01-01");
+    //   const db = new Date(b.updated || b.published || "1970-01-01");
+    //   return db - da;
+    // });
+
+    // Sort by published date (newest first)
     const sorted = [...papers].sort((a, b) => {
-      const da = new Date(a.published || "1970-01-01");
-      const db = new Date(b.published || "1970-01-01");
-      return db - da;
+      const da = a.published ? new Date(a.published) : new Date("1970-01-01");
+      const db = b.published ? new Date(b.published) : new Date("1970-01-01");
+      return db - da; // newest first
     });
 
     statusEl.textContent = `Loaded ${sorted.length} paper(s) from data/papers.json ✅`;
