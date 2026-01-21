@@ -106,6 +106,7 @@ def fetch_metadata_for_ids(id_list):
         authors = [a.name for a in entry.get("authors", []) if getattr(a, "name", None)]
         # published date
         published = entry.get("published", "")
+        updated = entry.get("updated", "")
         # title, clean whitespace
         title = entry.get("title", "").strip().replace("\n", " ").replace("  ", " ")
         abstract = entry.get("summary", "").strip().replace("\n", " ").replace("  ", " ")
@@ -131,6 +132,7 @@ def fetch_metadata_for_ids(id_list):
             "authors": authors,
             "abstract": abstract,
             "published": published,
+            "updated": updated,
             "primary_category": primary_cat,
         }
     return results

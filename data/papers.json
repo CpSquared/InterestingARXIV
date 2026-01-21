@@ -10,19 +10,17 @@
     ],
     "abstract": "We study Energy Correlators as probes of strongly-coupled nearly-conformal field theories within their holographically dual descriptions, focusing on the important features that appear in realistic theories going beyond the standard model. In particular, we study warped geometries which asymptote to $\\text{AdS}_5$, as well as IR-truncations dual to a 4D gap. Our correlators are computed by in-in type Witten perturbative diagrams, corresponding to a large-N expansion of the strong dynamics. We describe how this sets the stage for phenomenological applications for collider searches beyond the standard model as well as for new theoretical explorations in Lorentzian holography.",
     "published": "2026-01-15T18:38:04Z",
+    "updated": "2026-01-15T18:38:04Z",
     "primary_category": "hep-th"
   },
   {
     "id": "2601.07165",
-    "url": "https://arxiv.org/abs/2601.07165v1",
-    "pdf_url": null,
-    "title": "Perspectives on QCD, Topology and the Strong CP Problem",
-    "authors": [
-      "Anthony G. Williams"
-    ],
-    "abstract": "On the basis of allowed local gauge symmetries, the QCD Lagrangian admits a CP-violating term proportional to the topological charge density, commonly referred to as the $θ$ term. A priori, any value of $θ$ is consistent with the local symmetries of the theory, while current experimental limits constrain $θ\\lesssim 10^{-10}$. The apparent extreme smallness of this parameter is known as the strong $CP$ problem.  In this work, we provide a careful critical overview of the conceptual assumptions underlying the $θ$ term, focusing on the roles of topology, the definition of topological charge density, rough gauge field configurations, instantons, and anomalies. We contrast the assumptions required to describe QCD at nonzero $θ$ with those sufficient at $θ= 0$, and argue that a vanishing $θ$ term is compatible with a formulation based solely on local gauge invariance and causal locality, without invoking additional global structure.  The perspective developed here is intended as a conceptual analysis of the standard formulation of the strong $CP$ problem. It does not challenge the internal consistency of QCD at nonzero $θ$, nor does it diminish the independent theoretical and phenomenological motivation for axion and axion-like particle physics, which are well-motivated extensions of the Standard Model.",
-    "published": "2026-01-12T03:21:46Z",
-    "primary_category": "hep-ph"
+    "url": "https://arxiv.org/abs/2601.07165",
+    "title": null,
+    "authors": [],
+    "abstract": null,
+    "published": null,
+    "primary_category": null
   },
   {
     "id": "2601.09784",
@@ -37,6 +35,7 @@
     ],
     "abstract": "Motivated by axion-like inflation and its warm embedding within the Standard Model, we study the early stages of the energy transfer between an axion condensate and an SU(2) gauge ensemble, by employing non-linear classical real-time lattice simulations. The discretized equations of motion are worked out, elaborating on Gauss constraints. A numerical solution is implemented on the CosmoLattice platform. Adopting a quadratic potential, and omitting universe expansion for the moment, we establish initial exponential growth of the low-momentum gauge modes; damping of axion oscillations after some delay; and subsequent energy equipartition between axion and gauge ensembles. A clear difference between the SU(2) and U(1) dynamics is observed, likely associated with non-Abelian self-interactions. We elaborate on what this implies for the possible thermalization of the SU(2) ensemble.",
     "published": "2026-01-14T19:00:01Z",
+    "updated": "2026-01-14T19:00:01Z",
     "primary_category": "hep-ph"
   },
   {
@@ -50,22 +49,17 @@
     ],
     "abstract": "Conventional nuclear magnetic resonance searches for the galactic axion wind lose sensitivity at low frequencies due to the unfavourable scaling of inductive readout. Here, we propose a hybrid architecture where the hyperfine interaction transduces axion-driven nuclear precession into a high-bandwidth electron-spin readout channel. We demonstrate analytically that this dispersive upconversion preserves the specific sidereal and annual modulation signatures required to distinguish dark matter signals from instrumental backgrounds. When instantiated in a silicon ${ }^{209} \\text{Bi}$ donor platform, the hybrid sensor is projected to outperform direct nuclear detection by more than an order of magnitude over the $10^{-16}-10^{-6} \\text{eV}$ wide mass range. With collective enhancement, the design reaches a $5 σ$ sensitivity to DFSZ axion-nucleon couplings within one year, establishing hyperfine-mediated sensing as a competitive path for compact, solid-state dark matter searches.",
     "published": "2026-01-11T09:03:55Z",
+    "updated": "2026-01-11T09:03:55Z",
     "primary_category": "quant-ph"
   },
   {
     "id": "2510.07371",
-    "url": "https://arxiv.org/abs/2510.07371v2",
-    "pdf_url": null,
-    "title": "Axion Perturbations: A General Analytical Treatment",
-    "authors": [
-      "Itamar J. Allali",
-      "Priyesh Chakraborty",
-      "JiJi Fan",
-      "Matthew Reece"
-    ],
-    "abstract": "Cosmological data provides us two key constraints on dark matter (DM): it must have a particular abundance, and it must have an adiabatic spectrum of density perturbations in the early universe. Many different cosmological scenarios have been proposed that establish the abundance of axion DM in qualitatively different ways. In this paper we emphasize that, despite this variety of backgrounds, the perturbations in axion DM can be understood from universal principles. How does a feebly interacting axion field acquire perturbations proportional to those of photons? How do the isocurvature power spectrum and non-Gaussianity depend on the background evolution of the universe? We answer these questions for a completely general choice of cosmological background and temperature-dependent axion potential. We show that the most general solution to the axion field equation on super-horizon scales is entirely determined by the family of background solutions for different initial field values $θ_{\\rm ini}$. This holds for both the component in the field perturbation solution contributing to the DM isocurvature perturbation (enhanced at late times by the sensitivity of the DM abundance to the initial condition, $\\partial Ω_a / \\partial θ_{\\rm ini}$, which can be large for initial conditions near the hilltop), and the other component that contributes to the DM curvature perturbation. In particular, we explain that an unperturbed axion field in the early universe evolving into one with nontrivial adiabatic perturbations is guaranteed by Weinberg's theorem on adiabatic modes. These results have been derived before with various assumptions, such as a radiation dominated background or a quadratic potential. Our aim is to give a clear, simple derivation that is manifestly independent of those assumptions, and thus can be applied to any cosmological axion scenario.",
-    "published": "2025-10-08T18:00:00Z",
-    "primary_category": "hep-ph"
+    "url": "https://arxiv.org/abs/2510.07371",
+    "title": null,
+    "authors": [],
+    "abstract": null,
+    "published": null,
+    "primary_category": null
   },
   {
     "id": "2507.12519",
@@ -80,6 +74,7 @@
     ],
     "abstract": "The QCD axion in the pre-inflation scenario faces a stringent isocurvature constraint, which requires a relatively low Hubble scale during inflation. If the axion was heavier than the Hubble scale during inflation, its isocurvature is suppressed and the constraint disappears. We point out a novel mechanism for achieving this, relying on the topological nature of a BF-type (monodromy) mass for the axion. Such a mass term has an integer coefficient, so it could naturally have been very large during inflation and exactly zero by the time of the QCD phase transition. This integer can be viewed as a quantized flux, which is discharged in a first-order phase transition that proceeds by the nucleation of charged branes. This mechanism can be embedded in cosmology in several different ways, with tunneling during, at the end of, or after inflation. We provide a detailed case study of the scenario in which the tunneling event occurs during inflation. We also comment briefly on possible UV completions within extra-dimensional gauge theories and string theory. Intriguingly, the phase transition could be accompanied by the emergence of the chiral Standard Model field content from a non-chiral theory during inflation.",
     "published": "2025-07-16T18:00:00Z",
+    "updated": "2026-01-16T04:46:28Z",
     "primary_category": "hep-ph"
   },
   {
@@ -94,6 +89,7 @@
     ],
     "abstract": "It is shown to all orders of perturbation theory that in the effective field theory of general relativity the condition of vanishing of the vacuum energy leads to the same value of the cosmological constant, viewed as a parameter of the effective Lagrangian, as obtained by demanding the consistency of the effective field theory in Minkowski background. The resulting effective action is characterized by the cosmological constant term that vanishes exactly.",
     "published": "2025-06-23T22:57:54Z",
+    "updated": "2026-01-16T13:36:24Z",
     "primary_category": "hep-th"
   },
   {
@@ -112,6 +108,7 @@
     ],
     "abstract": "Recent DESI baryon acoustic oscillation data reveal deviations from $Λ$CDM cosmology, conventionally attributed to dynamical dark energy (DE). We demonstrate that these deviations are equally, if not better, explained by interactions between dark matter and dark energy (IDE), without requiring a time-varying DE equation of state. Using a unified framework, we analyze two IDE models -- coupled quintessence and coupled fluid -- against the latest CMB (Planck, ACT, SPT), DESI BAO, and SN (including DES-Dovekie recalibrated) data. Both IDE scenarios show robust evidence for non-vanishing interactions at the 3-5$σ$ level, with marginalized constraints significantly deviating from the $Λ$CDM limit. This preference persists even under DES-Dovekie SN recalibration, which weakens dynamical DE evidence. Crucially, for the same number of free parameters, IDE models provide fits to low- and high-redshift data that match or exceed the performance of the CPL dynamical DE parametrization. Our results establish IDE as a physically motivated alternative to dynamical DE, highlighting the necessity of future cosmological perturbation measurements (e.g., weak lensing, galaxy clustering) to distinguish between these paradigms.",
     "published": "2026-01-12T09:36:30Z",
+    "updated": "2026-01-12T09:36:30Z",
     "primary_category": "astro-ph.CO"
   },
   {
@@ -126,6 +123,7 @@
     ],
     "abstract": "In scenarios where the Peccei-Quinn symmetry breaks after inflation, small-scale axion inhomogeneities may gravitationally collapse into bound structures. The evolution of these systems is typically modeled through cosmological perturbation theory applied to the Einstein-Klein-Gordon equations. In the non-relativistic regime, this framework reduces to the Gross-Pitaevskii-Poisson or Schrödinger-Poisson equations, depending on whether axion self-interactions are taken into account. In this work, a non-minimal gravitational coupling term $ξR φ^4$ is included into the axion's relativistic action as a way to introduce a gravitationally mediated pairwise interaction. By performing a perturbative expansion and subsequently taking the non-relativistic limit, an alternative set of equations that govern the early stages of structure formation is obtained.",
     "published": "2026-01-12T11:03:29Z",
+    "updated": "2026-01-12T11:03:29Z",
     "primary_category": "hep-ph"
   },
   {
@@ -138,6 +136,7 @@
     ],
     "abstract": "In order to solve the strong CP problem, we study the possibility that the Peccei--Quinn symmetry is broken {\\it below}\\/ the QCD scale. We find that a QCD axion can be above GeV, and may be among the observed $η$ resonances. It is immune to quantum gravity corrections. The only fermion that has a $U(1)$ Peccei--Quinn charge is the right-handed up quark. Flavor-changing neutral currents are surprisingly small, except for a possible but not necessary contribution to $D^0$--$\\overline{D}^0$ mixing. All accelerator and astrophysical limits can be evaded. The most significant constraint is the mass splitting between $π^\\pm$ and $π^0$. In a UV completed model, LHC can look for a dijet resonance in $u\\bar{u}$, $u\\bar{d}$, $d\\bar{u}$ channels.",
     "published": "2026-01-05T19:00:00Z",
+    "updated": "2026-01-05T19:00:00Z",
     "primary_category": "hep-ph"
   },
   {
@@ -150,6 +149,7 @@
     ],
     "abstract": "Quantum chromodynamics (QCD) with a general number of colors, $\\Nc$, provides a powerful theoretical laboratory to explore the dynamics of non-Abelian gauge theories. Although $\\Nc =3$ does not look a large number, the $1/\\Nc$ expansion provides us with a very useful classification and book-keeping scheme for hadronic processes and sharpens conceptions otherwise obscured in real-world QCD with $\\Nc = 3$. Important applications are dense QCD matter where the first principle methods for QCD are not available and many conceptual issues remain to be clarified. In this chapter we first review hadrons at large $\\Nc$ from the viewpoint of quark-gluon dynamics, and then extend the discussions to hot/dense matter, focusing on confinement-deconfinement aspects. We emphasize how the large-$\\Nc$ limit provides a unified organizing principle for hadronic and quark degrees of freedom in regimes where first-principle methods are limited. Two-color and isospin QCD, for which lattice simulations at finite density can be performed for a special reason, is reviewed.",
     "published": "2026-01-19T01:51:31Z",
+    "updated": "2026-01-19T01:51:31Z",
     "primary_category": "hep-ph"
   },
   {
@@ -163,6 +163,7 @@
     ],
     "abstract": "The determination of whether the ground state of baryon matter in Quantum Chromodynamics (QCD) is the ordinary nucleus or a quark matter state remains a long-standing question in physics. A critical parameter in this investigation is the bag parameter $B$, which quantifies the QCD vacuum energy and can be computed using nonperturbative methods such as Lattice QCD (LQCD). By combining the equation of state derived from perturbative QCD (pQCD) with the bag parameter to fit the LQCD-simulated data for isospin-dense matter, we address the stability of quark matter within the LQCD+pQCD framework. Our findings suggest that the current data imposes an upper bound on $B^{1/4} \\lesssim 160$ MeV, approaching a conclusive statement on quark matter stability. Given the lower bound on $B$ from the quark condensate contribution to the vacuum energy, the stable 2-flavor quark matter remains possible, whereas the stable 2+1-flavor quark matter is excluded, assuming complete deconfinement and chiral-symmetry restoration and the reliability of pQCD at baryon chemical potentials around the proton mass. Additionally, we derive more general thermodynamic bounds on the quark matter energy-per-baryon and $B$, which, while weaker, provide complementary insights.",
     "published": "2024-10-25T16:37:56Z",
+    "updated": "2026-01-20T16:53:19Z",
     "primary_category": "hep-ph"
   }
 ]

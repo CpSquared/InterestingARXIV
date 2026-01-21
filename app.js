@@ -1,3 +1,4 @@
+// app.js - full file (replace your existing file with this)
 function escapeHtml(s) {
   if (s === null || s === undefined) return "";
   return String(s)
@@ -17,7 +18,6 @@ function formatPublishedDate(published) {
   if (!published) return "";
   const d = new Date(published);
   if (Number.isNaN(d.getTime())) return "";
-
   // Example: "20 Jan 2026"
   return d.toLocaleDateString(undefined, {
     day: "2-digit",
@@ -32,10 +32,15 @@ function makePaperCard(p) {
   const abs = p.url || `https://arxiv.org/abs/${p.id}`;
   const pdf = p.pdf_url || `https://arxiv.org/pdf/${p.id}.pdf`;
   const abstract = p.abstract ? escapeHtml(p.abstract) : "";
+
+  // Tag: prefer primary_category if present, else “arXiv paper”
+  const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
+
+  // Format published date for display
   const pubDate = formatPublishedDate(p.published);
 
-  // Tag: use primary_category if present, else generic
-  const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
+  // Format updated date for display
+  const pubDate = formatPublishedDate(p.updated || p.published);
 
   return `
     <div class="paper">
@@ -53,7 +58,7 @@ function makePaperCard(p) {
         |
         <a href="${escapeHtml(pdf)}" target="_blank" rel="noopener noreferrer">PDF</a>
         ${pubDate ? ` | <span class="paper-date">${escapeHtml(pubDate)}</span>` : ""}
-      </div>      
+      </div>
 
       ${abstract ? `<p class="paper-abstract">${abstract}</p>` : ""}
     </div>
@@ -70,11 +75,11 @@ async function main() {
 
     const papers = await resp.json();
 
-    // --- NEW: sort by published date (newest first) ---
+    // Sort by Updated date (newest first)
     const sorted = [...papers].sort((a, b) => {
-      const da = a.published ? new Date(a.published) : new Date("1970-01-01");
-      const db = b.published ? new Date(b.published) : new Date("1970-01-01");
-      return db - da; // newest first
+      const da = new Date(a.updated || a.published || "1970-01-01");
+      const db = new Date(b.updated || b.published || "1970-01-01");
+      return db - da;
     });
 
     statusEl.textContent = `Loaded ${sorted.length} paper(s) from data/papers.json ✅`;
