@@ -217,7 +217,9 @@ async function main() {
     setupNavHandlers();
 
     // status
-    statusEl.textContent = `Loaded ${papersArr.length} paper(s) ✅`;
+    if (statusEl) {
+      statusEl.textContent = `Loaded ${papersArr.length} paper(s) ✅`;
+    }
     console.log("categories:", categories);
     console.log("categories_map:", catMap);
   } catch (err) {
