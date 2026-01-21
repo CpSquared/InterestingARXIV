@@ -171,3 +171,11 @@
 .section-card details.card{
   margin: 0;
 }
+
+summary.list-summary .list-title{
+  text-decoration: none;
+}
+
+summary.list-summary:hover .list-title{
+  text-decoration: underline;
+}
