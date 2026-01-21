@@ -141,5 +141,29 @@
     "abstract": "In scenarios where the Peccei-Quinn symmetry breaks after inflation, small-scale axion inhomogeneities may gravitationally collapse into bound structures. The evolution of these systems is typically modeled through cosmological perturbation theory applied to the Einstein-Klein-Gordon equations. In the non-relativistic regime, this framework reduces to the Gross-Pitaevskii-Poisson or Schrödinger-Poisson equations, depending on whether axion self-interactions are taken into account. In this work, a non-minimal gravitational coupling term $ξR φ^4$ is included into the axion's relativistic action as a way to introduce a gravitationally mediated pairwise interaction. By performing a perturbative expansion and subsequently taking the non-relativistic limit, an alternative set of equations that govern the early stages of structure formation is obtained.",
     "published": "2026-01-12T11:03:29Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.02465",
+    "url": "https://arxiv.org/abs/2601.02465v1",
+    "pdf_url": null,
+    "title": "GeV-scale QCD Axion",
+    "authors": [
+      "Hitoshi Murayama"
+    ],
+    "abstract": "In order to solve the strong CP problem, we study the possibility that the Peccei--Quinn symmetry is broken {\\it below}\\/ the QCD scale. We find that a QCD axion can be above GeV, and may be among the observed $η$ resonances. It is immune to quantum gravity corrections. The only fermion that has a $U(1)$ Peccei--Quinn charge is the right-handed up quark. Flavor-changing neutral currents are surprisingly small, except for a possible but not necessary contribution to $D^0$--$\\overline{D}^0$ mixing. All accelerator and astrophysical limits can be evaded. The most significant constraint is the mass splitting between $π^\\pm$ and $π^0$. In a UV completed model, LHC can look for a dijet resonance in $u\\bar{u}$, $u\\bar{d}$, $d\\bar{u}$ channels.",
+    "published": "2026-01-05T19:00:00Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.02465",
+    "url": "https://arxiv.org/abs/2601.02465v1",
+    "pdf_url": null,
+    "title": "GeV-scale QCD Axion",
+    "authors": [
+      "Hitoshi Murayama"
+    ],
+    "abstract": "In order to solve the strong CP problem, we study the possibility that the Peccei--Quinn symmetry is broken {\\it below}\\/ the QCD scale. We find that a QCD axion can be above GeV, and may be among the observed $η$ resonances. It is immune to quantum gravity corrections. The only fermion that has a $U(1)$ Peccei--Quinn charge is the right-handed up quark. Flavor-changing neutral currents are surprisingly small, except for a possible but not necessary contribution to $D^0$--$\\overline{D}^0$ mixing. All accelerator and astrophysical limits can be evaded. The most significant constraint is the mass splitting between $π^\\pm$ and $π^0$. In a UV completed model, LHC can look for a dijet resonance in $u\\bar{u}$, $u\\bar{d}$, $d\\bar{u}$ channels.",
+    "published": "2026-01-05T19:00:00Z",
+    "primary_category": "hep-ph"
   }
 ]
