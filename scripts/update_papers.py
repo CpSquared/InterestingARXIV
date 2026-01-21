@@ -159,6 +159,24 @@ def main():
             print(f"Error fetching batch: {e}", file=sys.stderr)
             # continue with next batch
         time.sleep(DELAY)
+    # --- Retry unresolved IDs one-by-one (handle occasional missing entries from batch queries) ---
+    still_missing = [pid for pid in missing if pid not in fetched and pid not in existing]
+    if still_missing:
+        print(f"Retrying unresolved IDs one-by-one: {len(still_missing)}")
+        for pid in still_missing:
+            try:
+                # fetch_metadata_for_ids accepts a list (we pass single-id list)
+                one = fetch_metadata_for_ids([pid])
+                if one:
+                    fetched.update(one)
+                    print(f"  fetched on retry: {pid}")
+                else:
+                    print(f"  no data returned for {pid} on retry", file=sys.stderr)
+            except Exception as e:
+                print(f"WARNING: Could not fetch metadata for {pid} on retry: {e}", file=sys.stderr)
+            # be polite with arXiv
+            time.sleep(DELAY)
+    # -------------------------------------------------------------------------------
     # merge: existing + fetched
     merged = {**existing, **fetched}
     # produce ordered list according to papers.txt
