@@ -37,10 +37,10 @@ function makePaperCard(p) {
   const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
 
   // Format published date for display
-  // const pubDate = formatPublishedDate(p.published);
+  const pubDate = formatPublishedDate(p.published);
 
   // Format updated date for display
-  const pubDate = formatPublishedDate(p.updated || p.published);
+  // const pubDate = formatPublishedDate(p.updated || p.published);
 
   return `
     <div class="paper">
@@ -77,8 +77,8 @@ async function main() {
 
     // Sort by Updated date (newest first)
     const sorted = [...papers].sort((a, b) => {
-      const da = new Date(a.updated || a.published || "1970-01-01");
-      const db = new Date(b.updated || b.published || "1970-01-01");
+      const da = new Date(a.published || "1970-01-01");
+      const db = new Date(b.published || "1970-01-01");
       return db - da;
     });
 
