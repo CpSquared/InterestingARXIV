@@ -22,6 +22,9 @@ DATA_DIR = REPO_ROOT / "data"
 PAPERS_TXT = DATA_DIR / "papers.txt"
 PAPERS_JSON = DATA_DIR / "papers.json"
 
+CATEGORIES_JSON = Path("data/categories.json")
+CATEGORIES_MAP_JSON = Path("data/categories_map.json")
+
 # How many IDs to request per arXiv API call (keep reasonably small)
 BATCH_SIZE = 25
 # polite delay between requests (seconds)
@@ -43,22 +46,42 @@ def extract_id_from_url(url: str) -> str:
     return parts[-1]
 
 def load_papers_txt():
+    """
+    Reads data/papers.txt lines in either form:
+      URL
+      URL | category_id
+
+    Returns: list of tuples [(paper_id, category_id), ...] preserving order.
+    category_id defaults to 'uncat' if missing.
+    """
     if not PAPERS_TXT.exists():
         return []
-    ids = []
-    with PAPERS_TXT.open("r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line or line.startswith("#"):
-                continue
-            # allow both direct arxiv abs urls and plain ids
-            if line.startswith("http"):
-                arxiv_id = extract_id_from_url(line)
-            else:
-                arxiv_id = line
-            if arxiv_id:
-                ids.append(arxiv_id)
-    return ids
+
+    entries = []
+    for raw in PAPERS_TXT.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+
+        # Split on "|" if present: "url | 2"
+        if "|" in line:
+            left, right = line.split("|", 1)
+            url = left.strip()
+            cat = right.strip()
+            if not cat:
+                cat = "uncat"
+        else:
+            url = line
+            cat = "uncat"
+
+        pid = extract_id_from_url(url)  # your existing helper
+        if not pid:
+            print(f"WARNING: Could not parse arXiv id from line: {raw}", file=sys.stderr)
+            continue
+
+        entries.append((pid, cat))
+
+    return entries
 
 def load_existing_json():
     if not PAPERS_JSON.exists():
@@ -138,10 +161,11 @@ def fetch_metadata_for_ids(id_list):
     return results
 
 def main():
-    ids = load_papers_txt()
-    if not ids:
+    entries = load_papers_txt()
+    if not entries:
         print("No IDs found in data/papers.txt")
         return
+    ids = [pid for (pid, _cat) in entries]
     existing = load_existing_json()
     missing = [i for i in ids if i not in existing]
     print(f"Total IDs in papers.txt: {len(ids)}")
@@ -201,6 +225,31 @@ def main():
     with PAPERS_JSON.open("w", encoding="utf-8") as f:
         json.dump(ordered, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(ordered)} entries to {PAPERS_JSON}")
+
+    # --- Write categories_map.json (category_id -> list of paper ids) ---
+    # Load declared categories so we can initialize empty lists for them
+    declared = []
+    if CATEGORIES_JSON.exists():
+        try:
+            cfg = json.loads(CATEGORIES_JSON.read_text(encoding="utf-8"))
+            declared = [c.get("id") for c in cfg.get("categories", []) if c.get("id")]
+        except Exception as e:
+            print(f"WARNING: Could not read {CATEGORIES_JSON}: {e}", file=sys.stderr)
+
+    cat_map = {cid: [] for cid in declared if cid is not None}
+
+    # Preserve the same order as papers.txt
+    for pid, cat in entries:
+        if cat not in cat_map:
+            # keep unknown categories rather than dropping papers
+            cat_map[cat] = []
+            print(f"WARNING: papers.txt uses category '{cat}' not found in categories.json", file=sys.stderr)
+        cat_map[cat].append(pid)
+
+    with CATEGORIES_MAP_JSON.open("w", encoding="utf-8") as f:
+        json.dump(cat_map, f, ensure_ascii=False, indent=2)
+
+    print(f"Wrote categories map to {CATEGORIES_MAP_JSON}")
 
 if __name__ == "__main__":
     main()

@@ -6,26 +6,32 @@
 # python scripts/update_papers.py 
 
 
-https://arxiv.org/abs/2601.10674
+https://arxiv.org/abs/2601.10674 | 2  
 
-https://arxiv.org/pdf/2601.07165
+### Review on QCD, Topology and the Strong CP Problem
 
-https://arxiv.org/pdf/2601.09784
+https://arxiv.org/pdf/2601.07165 | 4
 
-https://arxiv.org/pdf/2601.06816
+https://arxiv.org/pdf/2601.09784 | 2
 
-https://arxiv.org/pdf/2510.07371
+https://arxiv.org/pdf/2601.06816 | 2
 
-https://arxiv.org/pdf/2507.12519
+https://arxiv.org/pdf/2510.07371 | 2
 
-https://arxiv.org/pdf/2506.19182
+https://arxiv.org/pdf/2507.12519 | 2
 
-https://arxiv.org/pdf/2601.07361
+https://arxiv.org/pdf/2506.19182 | 2
 
-https://arxiv.org/pdf/2601.07420
+https://arxiv.org/pdf/2601.07361 | 2
 
-https://arxiv.org/abs/2601.02465
+###  Gross-Pitaevskii-Poisson equations with a ξ R ϕ4 non-minimal coupling term
 
-https://arxiv.org/pdf/2601.12650
+https://arxiv.org/pdf/2601.07420 | 3
 
-https://arxiv.org/pdf/2410.19678
+###  Hitsohi GeV scale Axion 
+
+https://arxiv.org/abs/2601.02465 | 1
+
+https://arxiv.org/pdf/2601.12650 | 2
+
+https://arxiv.org/pdf/2410.19678 | 2
