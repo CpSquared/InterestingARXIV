@@ -37,10 +37,13 @@ function makePaperCard(p) {
   const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
 
   // Format published date for display
-  const pubDate = formatPublishedDate(p.published);
+  // const pubDate = formatPublishedDate(p.published);
 
   // Format updated date for display
   // const pubDate = formatPublishedDate(p.updated || p.published);
+
+  const firstDate = formatPublishedDate(p.published);
+  const updatedDate = formatPublishedDate(p.updated); 
 
   return `
     <div class="paper">
@@ -57,7 +60,8 @@ function makePaperCard(p) {
         <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">arXiv</a>
         |
         <a href="${escapeHtml(pdf)}" target="_blank" rel="noopener noreferrer">PDF</a>
-        ${pubDate ? ` | <span class="paper-date">${escapeHtml(pubDate)}</span>` : ""}
+        ${firstDate ? ` | <span class="paper-date">v1: ${escapeHtml(firstDate)}</span>` : ""}
+        ${updatedDate ? ` | <span class="paper-date">latest: ${escapeHtml(updatedDate)}</span>` : ""}
       </div>
 
       ${abstract ? `<p class="paper-abstract">${abstract}</p>` : ""}
@@ -75,19 +79,19 @@ async function main() {
 
     const papers = await resp.json();
 
-    // // Sort by Updated date (newest first)
-    // const sorted = [...papers].sort((a, b) => {
-    //   const da = new Date(a.updated || a.published || "1970-01-01");
-    //   const db = new Date(b.updated || b.published || "1970-01-01");
-    //   return db - da;
-    // });
-
-    // Sort by published date (newest first)
+    // Sort by Updated date (newest first)
     const sorted = [...papers].sort((a, b) => {
-      const da = a.published ? new Date(a.published) : new Date("1970-01-01");
-      const db = b.published ? new Date(b.published) : new Date("1970-01-01");
-      return db - da; // newest first
+      const da = new Date(a.updated || a.published || "1970-01-01");
+      const db = new Date(b.updated || b.published || "1970-01-01");
+      return db - da;
     });
+
+    // // Sort by published date (newest first)
+    // const sorted = [...papers].sort((a, b) => {
+    //   const da = a.published ? new Date(a.published) : new Date("1970-01-01");
+    //   const db = b.published ? new Date(b.published) : new Date("1970-01-01");
+    //   return db - da; // newest first
+    // });
 
     statusEl.textContent = `Loaded ${sorted.length} paper(s) from data/papers.json ✅`;
     console.log("papers.json contents:", papers);
