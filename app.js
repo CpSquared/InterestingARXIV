@@ -37,7 +37,7 @@ function makePaperCard(p) {
   const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
 
   // Format published date for display
-  const pubDate = formatPublishedDate(p.published);
+  // const pubDate = formatPublishedDate(p.published);
 
   // Format updated date for display
   const pubDate = formatPublishedDate(p.updated || p.published);
