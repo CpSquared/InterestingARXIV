@@ -1,73 +1,82 @@
 function escapeHtml(s) {
-    if (s === null || s === undefined) return "";
-    return String(s)
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-  }
-  
-  function authorsToString(authors) {
-    if (!Array.isArray(authors) || authors.length === 0) return "";
-    return authors.join(", ");
-  }
-  
-  function makePaperCard(p) {
-    const title = p.title ? escapeHtml(p.title) : escapeHtml(p.id);
-    const authors = escapeHtml(authorsToString(p.authors));
-    const abs = p.url || `https://arxiv.org/abs/${p.id}`;
-    const pdf = p.pdf_url || `https://arxiv.org/pdf/${p.id}.pdf`;
-    const abstract = p.abstract ? escapeHtml(p.abstract) : "";
-  
-    // Tag: prefer primary_category if present, else “arXiv paper”
-    const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
-  
-    return `
-      <div class="paper">
-        <div class="paper-top">
-          <span class="tag">${tagText}</span>
-          <h3 class="paper-title">
-            <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">${title}</a>
-          </h3>
-        </div>
-  
-        ${authors ? `<div class="paper-authors">${authors}</div>` : ""}
-  
-        <div class="paper-links">
-          <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">arXiv</a>
-          |
-          <a href="${escapeHtml(pdf)}" target="_blank" rel="noopener noreferrer">PDF</a>
-        </div>
-  
-        ${abstract ? `<p class="paper-abstract">${abstract}</p>` : ""}
+  if (s === null || s === undefined) return "";
+  return String(s)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function authorsToString(authors) {
+  if (!Array.isArray(authors) || authors.length === 0) return "";
+  return authors.join(", ");
+}
+
+function makePaperCard(p) {
+  const title = p.title ? escapeHtml(p.title) : escapeHtml(p.id);
+  const authors = escapeHtml(authorsToString(p.authors));
+  const abs = p.url || `https://arxiv.org/abs/${p.id}`;
+  const pdf = p.pdf_url || `https://arxiv.org/pdf/${p.id}.pdf`;
+  const abstract = p.abstract ? escapeHtml(p.abstract) : "";
+
+  // Tag: use primary_category if present, else generic
+  const tagText = p.primary_category ? escapeHtml(p.primary_category) : "arXiv paper";
+
+  return `
+    <div class="paper">
+      <div class="paper-top">
+        <span class="tag">${tagText}</span>
+        <h3 class="paper-title">
+          <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">${title}</a>
+        </h3>
       </div>
-    `;
-  }
-  
-  async function main() {
-    const statusEl = document.getElementById("status");
-    const papersEl = document.getElementById("papers");
-  
-    try {
-      const resp = await fetch("data/papers.json", { cache: "no-store" });
-      if (!resp.ok) throw new Error(`Failed to load papers.json (HTTP ${resp.status})`);
-  
-      const papers = await resp.json();
-      statusEl.textContent = `Loaded ${papers.length} paper(s) from data/papers.json ✅`;
-      console.log("papers.json contents:", papers);
-  
-      if (!Array.isArray(papers) || papers.length === 0) {
-        papersEl.innerHTML = "<p>No papers yet. Add arXiv links to <code>data/papers.txt</code>.</p>";
-        return;
-      }
-  
-      papersEl.innerHTML = papers.map(makePaperCard).join("\n");
-    } catch (err) {
-      statusEl.textContent = `Error: ${err.message}`;
-      papersEl.innerHTML = `<p>Error loading papers: ${escapeHtml(err.message)}</p>`;
-      console.error(err);
+
+      ${authors ? `<div class="paper-authors">${authors}</div>` : ""}
+
+      <div class="paper-links">
+        <a href="${escapeHtml(abs)}" target="_blank" rel="noopener noreferrer">arXiv</a>
+        |
+        <a href="${escapeHtml(pdf)}" target="_blank" rel="noopener noreferrer">PDF</a>
+      </div>
+
+      ${abstract ? `<p class="paper-abstract">${abstract}</p>` : ""}
+    </div>
+  `;
+}
+
+async function main() {
+  const statusEl = document.getElementById("status");
+  const papersEl = document.getElementById("papers");
+
+  try {
+    const resp = await fetch("data/papers.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error(`Failed to load papers.json (HTTP ${resp.status})`);
+
+    const papers = await resp.json();
+
+    // --- NEW: sort by published date (newest first) ---
+    const sorted = [...papers].sort((a, b) => {
+      const da = a.published ? new Date(a.published) : new Date("1970-01-01");
+      const db = b.published ? new Date(b.published) : new Date("1970-01-01");
+      return db - da; // newest first
+    });
+
+    statusEl.textContent = `Loaded ${sorted.length} paper(s) from data/papers.json ✅`;
+    console.log("papers.json contents:", papers);
+    console.log("sorted by published:", sorted);
+
+    if (!Array.isArray(sorted) || sorted.length === 0) {
+      papersEl.innerHTML = "<p>No papers yet. Add arXiv links to <code>data/papers.txt</code>.</p>";
+      return;
     }
+
+    papersEl.innerHTML = sorted.map(makePaperCard).join("\n");
+  } catch (err) {
+    statusEl.textContent = `Error: ${err.message}`;
+    papersEl.innerHTML = `<p>Error loading papers: ${escapeHtml(err.message)}</p>`;
+    console.error(err);
   }
-  
-  document.addEventListener("DOMContentLoaded", main);
+}
+
+document.addEventListener("DOMContentLoaded", main);
