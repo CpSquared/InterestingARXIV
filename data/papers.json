@@ -23,5 +23,20 @@
     "abstract": "On the basis of allowed local gauge symmetries, the QCD Lagrangian admits a CP-violating term proportional to the topological charge density, commonly referred to as the $θ$ term. A priori, any value of $θ$ is consistent with the local symmetries of the theory, while current experimental limits constrain $θ\\lesssim 10^{-10}$. The apparent extreme smallness of this parameter is known as the strong $CP$ problem.  In this work, we provide a careful critical overview of the conceptual assumptions underlying the $θ$ term, focusing on the roles of topology, the definition of topological charge density, rough gauge field configurations, instantons, and anomalies. We contrast the assumptions required to describe QCD at nonzero $θ$ with those sufficient at $θ= 0$, and argue that a vanishing $θ$ term is compatible with a formulation based solely on local gauge invariance and causal locality, without invoking additional global structure.  The perspective developed here is intended as a conceptual analysis of the standard formulation of the strong $CP$ problem. It does not challenge the internal consistency of QCD at nonzero $θ$, nor does it diminish the independent theoretical and phenomenological motivation for axion and axion-like particle physics, which are well-motivated extensions of the Standard Model.",
     "published": "2026-01-12T03:21:46Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.09784",
+    "url": "https://arxiv.org/abs/2601.09784v1",
+    "pdf_url": null,
+    "title": "Classical equipartition dynamics between axions and non-Abelian gauge fields",
+    "authors": [
+      "Kim V. Berghaus",
+      "Adrien Florio",
+      "M. Laine",
+      "Franz R. Sattler"
+    ],
+    "abstract": "Motivated by axion-like inflation and its warm embedding within the Standard Model, we study the early stages of the energy transfer between an axion condensate and an SU(2) gauge ensemble, by employing non-linear classical real-time lattice simulations. The discretized equations of motion are worked out, elaborating on Gauss constraints. A numerical solution is implemented on the CosmoLattice platform. Adopting a quadratic potential, and omitting universe expansion for the moment, we establish initial exponential growth of the low-momentum gauge modes; damping of axion oscillations after some delay; and subsequent energy equipartition between axion and gauge ensembles. A clear difference between the SU(2) and U(1) dynamics is observed, likely associated with non-Abelian self-interactions. We elaborate on what this implies for the possible thermalization of the SU(2) ensemble.",
+    "published": "2026-01-14T19:00:01Z",
+    "primary_category": "hep-ph"
   }
 ]
