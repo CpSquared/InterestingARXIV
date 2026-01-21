@@ -176,5 +176,19 @@
     "published": "2026-01-12T03:21:46Z",
     "updated": "2026-01-12T03:21:46Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.11760",
+    "url": "https://arxiv.org/abs/2601.11760v1",
+    "pdf_url": null,
+    "title": "Minkowski Space Dynamics and Light-Front Projection",
+    "authors": [
+      "Wayne de Paula",
+      "Tobias Frederico"
+    ],
+    "abstract": "We explore the connection between the four-dimensional Minkowski-space Bethe-Salpeter equation and its light-front projection, emphasizing the implications for bound-state dynamics. Our approach incorporates dressed particles, such as quarks, via the integral representation of the corresponding propagator. We analyze the light-front dynamics of the valence component of the physical state using a hierarchical set of Green's functions, which reveals its coupling to higher Fock components when dressed particles are considered. We also present the light-front Faddeev-Bethe-Salpeter equations for three-body systems with dressed constituents. Furthermore, we discuss formal developments that are central to connecting the three-dimensional light-front dynamics onto the null-plane and the four-dimensional Minkowski-space framework, based on the Nakanishi integral representation. Selected applications to hadron structure are also reviewed.",
+    "published": "2026-01-16T20:23:50Z",
+    "updated": "2026-01-16T20:23:50Z",
+    "primary_category": "hep-ph"
   }
 ]
