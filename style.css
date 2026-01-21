@@ -179,3 +179,26 @@ summary.list-summary .list-title{
 summary.list-summary:hover .list-title{
   text-decoration: underline;
 }
+
+/* Navigation card that links to a section */
+.nav-card{
+  padding: 16px 18px;
+}
+
+/* Make the nav text look like a paper title */
+.nav-link a{
+  color: #111827;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+
+/* Same hover behavior as other titles */
+.nav-link a:hover{
+  text-decoration: underline;
+}
+
+html{
+  scroll-behavior: smooth;
+}
