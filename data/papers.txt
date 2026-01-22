@@ -22,7 +22,7 @@
 
 ###  Hitsohi GeV scale Axion 
 
-https://arxiv.org/abs/2601.02465 | 1x   
+https://arxiv.org/abs/2601.02465 | 1   
 
 
 
@@ -94,7 +94,6 @@ https://arxiv.org/pdf/2510.07371 | 3
 
 https://arxiv.org/pdf/2601.07165 | 4
 
-https://arxiv.org/pdf/2601.11760 | 4
 
 
 
