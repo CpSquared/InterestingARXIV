@@ -165,6 +165,25 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2512.05872",
+    "url": "https://arxiv.org/abs/2512.05872v1",
+    "pdf_url": null,
+    "title": "Nuclear spin quenching of the $^2S_{1/2}\\rightarrow {^2}F_{7/2} $ electric octupole transition in $^{173}$Yb$^+$",
+    "authors": [
+      "Jialiang Yu",
+      "Anand Prakash",
+      "Clara Zyskind",
+      "Ikbal A. Biswas",
+      "Rattakorn Kaewuam",
+      "Piyaphat Phoonthong",
+      "Tanja E. Mehlstäubler"
+    ],
+    "abstract": "We report the coherent excitation of the highly forbidden $^2S_{1/2} \\rightarrow {^2}F_{7/2}$ clock transition in the odd isotope $^{173}\\mathrm{Yb}^+$ with nuclear spin $I = 5/2$, and reveal the hyperfine-state-dependent, nuclear spin induced quenching of this transition. The inferred lifetime of the $F_e = 4$ hyperfine state is one order of magnitude shorter than the unperturbed ${^2}F_{7/2}$ clock state of $^{171}\\mathrm{Yb}^+$. This reduced lifetime lowers the required optical power for coherent excitation of the clock transition, thereby reducing the AC Stark shift caused by the clock laser. Using a 3-ion Coulomb crystal, we experimentally demonstrate an approximately 20-fold suppression of the AC Stark shift, a critical improvement for the scalability of future multi-ion $\\mathrm{Yb}^+$ clocks. Furthermore, we report the $|^2S_{1/2},F_g=3\\rangle~\\rightarrow~|^2F_{7/2},F_e=6\\rangle$ unquenched reference transition frequency as $642.11917656354(43)$ THz, along with the measured hyperfine splitting and calculated quadratic Zeeman sensitivities of the ${^2}F_{7/2}$ clock state. Our results pave the way toward multi-ion optical clocks and quantum computers based on $^{173}\\mathrm{Yb}^+$.",
+    "published": "2025-12-05T16:49:06Z",
+    "updated": "2025-12-05T16:49:06Z",
+    "primary_category": "physics.atom-ph"
+  },
+  {
     "id": "2601.07165",
     "url": "https://arxiv.org/abs/2601.07165v1",
     "pdf_url": null,
