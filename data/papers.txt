@@ -20,9 +20,7 @@
 #############################################   HEP Discussion    
 
 
-###  Hitsohi GeV scale Axion 
 
-https://arxiv.org/abs/2601.02465 | 1   
 
 
 
@@ -31,28 +29,19 @@ https://arxiv.org/abs/2601.02465 | 1
 #############################################   Chat over a Coffee ?
 
 
-### Approaching Stable Quark Matter , by Yang Bai
-
-https://arxiv.org/pdf/2410.19678 | 2
-
-
-###  Gross-Pitaevskii-Poisson equations with a ξ R ϕ4 non-minimal coupling term
-
-https://arxiv.org/pdf/2601.07420 | 2
-
-
-### Classical equipartition dynamics between axions and non-Abelian gauge fields
-
-https://arxiv.org/pdf/2601.09784 | 2
-
-
 ### Axion Signal Search Using Hybrid Nuclear-Electronic Spin Systems , 5 sigma sensitivity to DFSZ Axion Claim
 
 https://arxiv.org/pdf/2601.06816 | 2
 
 
+### Searching for Ultralight Scalar Dark Matter with Clocks in Low Earth Orbit
+
+https://arxiv.org/pdf/2601.16259 | 2
+
+
 
 #############################################   Is this Interesting ??
+
 
 
 ### QCD-Like Theories with Different Color Numbers
@@ -92,6 +81,27 @@ https://arxiv.org/pdf/2512.05872 | 3
 
 
 
+### Approaching Stable Quark Matter , by Yang Bai
+
+https://arxiv.org/pdf/2410.19678 | 2
+
+
+###  Gross-Pitaevskii-Poisson equations with a ξ R ϕ4 non-minimal coupling term
+
+https://arxiv.org/pdf/2601.07420 | 2
+
+
+### Classical equipartition dynamics between axions and non-Abelian gauge fields
+
+https://arxiv.org/pdf/2601.09784 | 2
+
+###  Hitsohi GeV scale Axion 
+
+https://arxiv.org/abs/2601.02465 | 2   
+
+
+
+
 
 #############################################   Good for Academic Reading ???
 
@@ -101,6 +111,10 @@ https://arxiv.org/pdf/2512.05872 | 3
 https://arxiv.org/pdf/2601.07165 | 4
 
 
+### Effective Field Theory Description of Light Dilaton
+
+
+https://arxiv.org/pdf/2601.16534 | 4
 
 
 

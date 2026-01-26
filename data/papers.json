@@ -1,63 +1,5 @@
 [
   {
-    "id": "2601.02465",
-    "url": "https://arxiv.org/abs/2601.02465v1",
-    "pdf_url": null,
-    "title": "GeV-scale QCD Axion",
-    "authors": [
-      "Hitoshi Murayama"
-    ],
-    "abstract": "In order to solve the strong CP problem, we study the possibility that the Peccei--Quinn symmetry is broken {\\it below}\\/ the QCD scale. We find that a QCD axion can be above GeV, and may be among the observed $η$ resonances. It is immune to quantum gravity corrections. The only fermion that has a $U(1)$ Peccei--Quinn charge is the right-handed up quark. Flavor-changing neutral currents are surprisingly small, except for a possible but not necessary contribution to $D^0$--$\\overline{D}^0$ mixing. All accelerator and astrophysical limits can be evaded. The most significant constraint is the mass splitting between $π^\\pm$ and $π^0$. In a UV completed model, LHC can look for a dijet resonance in $u\\bar{u}$, $u\\bar{d}$, $d\\bar{u}$ channels.",
-    "published": "2026-01-05T19:00:00Z",
-    "updated": "2026-01-05T19:00:00Z",
-    "primary_category": "hep-ph"
-  },
-  {
-    "id": "2410.19678",
-    "url": "https://arxiv.org/abs/2410.19678v3",
-    "pdf_url": null,
-    "title": "Approaching Stable Quark Matter",
-    "authors": [
-      "Yang Bai",
-      "Ting-Kuo Chen"
-    ],
-    "abstract": "The determination of whether the ground state of baryon matter in Quantum Chromodynamics (QCD) is the ordinary nucleus or a quark matter state remains a long-standing question in physics. A critical parameter in this investigation is the bag parameter $B$, which quantifies the QCD vacuum energy and can be computed using nonperturbative methods such as Lattice QCD (LQCD). By combining the equation of state derived from perturbative QCD (pQCD) with the bag parameter to fit the LQCD-simulated data for isospin-dense matter, we address the stability of quark matter within the LQCD+pQCD framework. Our findings suggest that the current data imposes an upper bound on $B^{1/4} \\lesssim 160$ MeV, approaching a conclusive statement on quark matter stability. Given the lower bound on $B$ from the quark condensate contribution to the vacuum energy, the stable 2-flavor quark matter remains possible, whereas the stable 2+1-flavor quark matter is excluded, assuming complete deconfinement and chiral-symmetry restoration and the reliability of pQCD at baryon chemical potentials around the proton mass. Additionally, we derive more general thermodynamic bounds on the quark matter energy-per-baryon and $B$, which, while weaker, provide complementary insights.",
-    "published": "2024-10-25T16:37:56Z",
-    "updated": "2026-01-20T16:53:19Z",
-    "primary_category": "hep-ph"
-  },
-  {
-    "id": "2601.07420",
-    "url": "https://arxiv.org/abs/2601.07420v1",
-    "pdf_url": null,
-    "title": "Gross-Pitaevskii-Poisson equations with a $ξR φ^4$ non-minimal coupling term",
-    "authors": [
-      "Bryan Cordero-Patino",
-      "Álvaro Duenas-Vidal",
-      "Jorge Segovia"
-    ],
-    "abstract": "In scenarios where the Peccei-Quinn symmetry breaks after inflation, small-scale axion inhomogeneities may gravitationally collapse into bound structures. The evolution of these systems is typically modeled through cosmological perturbation theory applied to the Einstein-Klein-Gordon equations. In the non-relativistic regime, this framework reduces to the Gross-Pitaevskii-Poisson or Schrödinger-Poisson equations, depending on whether axion self-interactions are taken into account. In this work, a non-minimal gravitational coupling term $ξR φ^4$ is included into the axion's relativistic action as a way to introduce a gravitationally mediated pairwise interaction. By performing a perturbative expansion and subsequently taking the non-relativistic limit, an alternative set of equations that govern the early stages of structure formation is obtained.",
-    "published": "2026-01-12T11:03:29Z",
-    "updated": "2026-01-12T11:03:29Z",
-    "primary_category": "hep-ph"
-  },
-  {
-    "id": "2601.09784",
-    "url": "https://arxiv.org/abs/2601.09784v1",
-    "pdf_url": null,
-    "title": "Classical equipartition dynamics between axions and non-Abelian gauge fields",
-    "authors": [
-      "Kim V. Berghaus",
-      "Adrien Florio",
-      "M. Laine",
-      "Franz R. Sattler"
-    ],
-    "abstract": "Motivated by axion-like inflation and its warm embedding within the Standard Model, we study the early stages of the energy transfer between an axion condensate and an SU(2) gauge ensemble, by employing non-linear classical real-time lattice simulations. The discretized equations of motion are worked out, elaborating on Gauss constraints. A numerical solution is implemented on the CosmoLattice platform. Adopting a quadratic potential, and omitting universe expansion for the moment, we establish initial exponential growth of the low-momentum gauge modes; damping of axion oscillations after some delay; and subsequent energy equipartition between axion and gauge ensembles. A clear difference between the SU(2) and U(1) dynamics is observed, likely associated with non-Abelian self-interactions. We elaborate on what this implies for the possible thermalization of the SU(2) ensemble.",
-    "published": "2026-01-14T19:00:01Z",
-    "updated": "2026-01-14T19:00:01Z",
-    "primary_category": "hep-ph"
-  },
-  {
     "id": "2601.06816",
     "url": "https://arxiv.org/abs/2601.06816v1",
     "pdf_url": null,
@@ -70,6 +12,20 @@
     "published": "2026-01-11T09:03:55Z",
     "updated": "2026-01-11T09:03:55Z",
     "primary_category": "quant-ph"
+  },
+  {
+    "id": "2601.16259",
+    "url": "https://arxiv.org/abs/2601.16259v1",
+    "pdf_url": null,
+    "title": "Searching for Ultralight Scalar Dark Matter with Clocks in Low Earth Orbit",
+    "authors": [
+      "Dawid Brzeminski",
+      "Aaron Pierce"
+    ],
+    "abstract": "The density of ultralight dark matter can be modified in the vicinity of macroscopic bodies when the dark matter possesses quadratic couplings to the Standard Model. If these couplings are sufficiently strong, Earth's atmosphere acts to shield the dark matter, thereby limiting the effectiveness of laboratory-based experiments. Experiments performed at altitudes exceeding the dark matter de Broglie wavelength experience the same orbit-averaged field amplitude as in the absence of scattering. Quantum clocks are capable of detecting variations in fundamental parameters due to the dark matter background. If based on the International Space Station, they are therefore well-suited to probe dark matter masses $m_{\\rm DM}\\gtrsim 10^{-9} \\text{\\, eV}$. Moreover, when the dark matter de Broglie wavelength is smaller than Earth's radius ($m_{\\rm DM} \\gtrsim 10^{-10}$ eV), the dark matter profile around Earth exhibits a dipole feature. In Low Earth Orbits this dipole temporally modulates potential dark matter signals. This provides a powerful cross-check of the orbit-averaged effect and can enhance the sensitivity of these experiments. We find optical clocks could give rise to world-leading constraints in some cases. Orbiting nuclear clocks could probe even more of the parameter space inaccessible to ground-based experiments.",
+    "published": "2026-01-22T19:00:02Z",
+    "updated": "2026-01-22T19:00:02Z",
+    "primary_category": "hep-ph"
   },
   {
     "id": "2601.12650",
@@ -184,6 +140,64 @@
     "primary_category": "physics.atom-ph"
   },
   {
+    "id": "2410.19678",
+    "url": "https://arxiv.org/abs/2410.19678v3",
+    "pdf_url": null,
+    "title": "Approaching Stable Quark Matter",
+    "authors": [
+      "Yang Bai",
+      "Ting-Kuo Chen"
+    ],
+    "abstract": "The determination of whether the ground state of baryon matter in Quantum Chromodynamics (QCD) is the ordinary nucleus or a quark matter state remains a long-standing question in physics. A critical parameter in this investigation is the bag parameter $B$, which quantifies the QCD vacuum energy and can be computed using nonperturbative methods such as Lattice QCD (LQCD). By combining the equation of state derived from perturbative QCD (pQCD) with the bag parameter to fit the LQCD-simulated data for isospin-dense matter, we address the stability of quark matter within the LQCD+pQCD framework. Our findings suggest that the current data imposes an upper bound on $B^{1/4} \\lesssim 160$ MeV, approaching a conclusive statement on quark matter stability. Given the lower bound on $B$ from the quark condensate contribution to the vacuum energy, the stable 2-flavor quark matter remains possible, whereas the stable 2+1-flavor quark matter is excluded, assuming complete deconfinement and chiral-symmetry restoration and the reliability of pQCD at baryon chemical potentials around the proton mass. Additionally, we derive more general thermodynamic bounds on the quark matter energy-per-baryon and $B$, which, while weaker, provide complementary insights.",
+    "published": "2024-10-25T16:37:56Z",
+    "updated": "2026-01-20T16:53:19Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.07420",
+    "url": "https://arxiv.org/abs/2601.07420v1",
+    "pdf_url": null,
+    "title": "Gross-Pitaevskii-Poisson equations with a $ξR φ^4$ non-minimal coupling term",
+    "authors": [
+      "Bryan Cordero-Patino",
+      "Álvaro Duenas-Vidal",
+      "Jorge Segovia"
+    ],
+    "abstract": "In scenarios where the Peccei-Quinn symmetry breaks after inflation, small-scale axion inhomogeneities may gravitationally collapse into bound structures. The evolution of these systems is typically modeled through cosmological perturbation theory applied to the Einstein-Klein-Gordon equations. In the non-relativistic regime, this framework reduces to the Gross-Pitaevskii-Poisson or Schrödinger-Poisson equations, depending on whether axion self-interactions are taken into account. In this work, a non-minimal gravitational coupling term $ξR φ^4$ is included into the axion's relativistic action as a way to introduce a gravitationally mediated pairwise interaction. By performing a perturbative expansion and subsequently taking the non-relativistic limit, an alternative set of equations that govern the early stages of structure formation is obtained.",
+    "published": "2026-01-12T11:03:29Z",
+    "updated": "2026-01-12T11:03:29Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.09784",
+    "url": "https://arxiv.org/abs/2601.09784v1",
+    "pdf_url": null,
+    "title": "Classical equipartition dynamics between axions and non-Abelian gauge fields",
+    "authors": [
+      "Kim V. Berghaus",
+      "Adrien Florio",
+      "M. Laine",
+      "Franz R. Sattler"
+    ],
+    "abstract": "Motivated by axion-like inflation and its warm embedding within the Standard Model, we study the early stages of the energy transfer between an axion condensate and an SU(2) gauge ensemble, by employing non-linear classical real-time lattice simulations. The discretized equations of motion are worked out, elaborating on Gauss constraints. A numerical solution is implemented on the CosmoLattice platform. Adopting a quadratic potential, and omitting universe expansion for the moment, we establish initial exponential growth of the low-momentum gauge modes; damping of axion oscillations after some delay; and subsequent energy equipartition between axion and gauge ensembles. A clear difference between the SU(2) and U(1) dynamics is observed, likely associated with non-Abelian self-interactions. We elaborate on what this implies for the possible thermalization of the SU(2) ensemble.",
+    "published": "2026-01-14T19:00:01Z",
+    "updated": "2026-01-14T19:00:01Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.02465",
+    "url": "https://arxiv.org/abs/2601.02465v1",
+    "pdf_url": null,
+    "title": "GeV-scale QCD Axion",
+    "authors": [
+      "Hitoshi Murayama"
+    ],
+    "abstract": "In order to solve the strong CP problem, we study the possibility that the Peccei--Quinn symmetry is broken {\\it below}\\/ the QCD scale. We find that a QCD axion can be above GeV, and may be among the observed $η$ resonances. It is immune to quantum gravity corrections. The only fermion that has a $U(1)$ Peccei--Quinn charge is the right-handed up quark. Flavor-changing neutral currents are surprisingly small, except for a possible but not necessary contribution to $D^0$--$\\overline{D}^0$ mixing. All accelerator and astrophysical limits can be evaded. The most significant constraint is the mass splitting between $π^\\pm$ and $π^0$. In a UV completed model, LHC can look for a dijet resonance in $u\\bar{u}$, $u\\bar{d}$, $d\\bar{u}$ channels.",
+    "published": "2026-01-05T19:00:00Z",
+    "updated": "2026-01-05T19:00:00Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.07165",
     "url": "https://arxiv.org/abs/2601.07165v1",
     "pdf_url": null,
@@ -194,6 +208,23 @@
     "abstract": "On the basis of allowed local gauge symmetries, the QCD Lagrangian admits a CP-violating term proportional to the topological charge density, commonly referred to as the $θ$ term. A priori, any value of $θ$ is consistent with the local symmetries of the theory, while current experimental limits constrain $θ\\lesssim 10^{-10}$. The apparent extreme smallness of this parameter is known as the strong $CP$ problem.  In this work, we provide a careful critical overview of the conceptual assumptions underlying the $θ$ term, focusing on the roles of topology, the definition of topological charge density, rough gauge field configurations, instantons, and anomalies. We contrast the assumptions required to describe QCD at nonzero $θ$ with those sufficient at $θ= 0$, and argue that a vanishing $θ$ term is compatible with a formulation based solely on local gauge invariance and causal locality, without invoking additional global structure.  The perspective developed here is intended as a conceptual analysis of the standard formulation of the strong $CP$ problem. It does not challenge the internal consistency of QCD at nonzero $θ$, nor does it diminish the independent theoretical and phenomenological motivation for axion and axion-like particle physics, which are well-motivated extensions of the Standard Model.",
     "published": "2026-01-12T03:21:46Z",
     "updated": "2026-01-12T03:21:46Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.16534",
+    "url": "https://arxiv.org/abs/2601.16534v1",
+    "pdf_url": null,
+    "title": "Effective Field Theory Description of Light Dilaton",
+    "authors": [
+      "Qing-Hong Cao",
+      "Jian-Nan Ding",
+      "Bing-Hui Ge",
+      "Hao Sun",
+      "Jiang-Hao Yu"
+    ],
+    "abstract": "Dilatons, the CP-even pseudo-Nambu-Goldstone bosons arising from spontaneous scale symmetry breaking, offer a compelling alternative to axion-like particles (ALPs) yet lack a comprehensive low-energy framework. We address this by constructing a systematic effective field theory (EFT) for the dilaton based on a manifestly scale-invariant regularization scheme. This approach derives universal linear couplings to the trace anomaly while preserving consistent renormalization group evolution. We establish a hierarchical EFT tower connecting the ultraviolet conformal sector to the infrared, encompassing the dilaton-extended SMEFT, low-energy EFT up to dimension-7, and a chiral Lagrangian describing meson and baryon interactions. We perform a comprehensive phenomenological analysis across two distinct mass regimes, where dilaton manifests as either conventional particle or wave-like particle. For MeV-scale dilatons behaving as conventional particles, we obtain constraints from LHC production, semi-invisible $B$- and $K$-meson decays, and supernova cooling. For ultralight dilatons acting as dark matter, we project sensitivities for atomic clocks and atom interferometers. This unified EFT framework would pave the way for extended phenomenological studies across the full mass spectrum of the light dilaton.",
+    "published": "2026-01-23T08:09:54Z",
+    "updated": "2026-01-23T08:09:54Z",
     "primary_category": "hep-ph"
   }
 ]
