@@ -44,6 +44,20 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2506.16036",
+    "url": "https://arxiv.org/abs/2506.16036v4",
+    "pdf_url": null,
+    "title": "A Photon Cloud Induced from an Axion Cloud",
+    "authors": [
+      "Zi-Yu Tang",
+      "Eleftherios Papantonopoulos"
+    ],
+    "abstract": "It is known that the axion-photon coupling can lead to quantum stimulated emission of photons and classic exponential amplification of electromagnetic (EM) fields at half the axion mass frequency, when the axion density or the coupling constant is sufficiently large. In this work, we studied the EM photon cloud induced from an axion cloud around a Kerr black hole in the first order of the coupling constant classically. In the presence of a static EM background (such as the extended Wald solution motivated by astrophysical environments), we found that an EM photon cloud emerges, oscillating at the same frequency as the axion cloud and growing exponentially in accordance with the axion cloud when the superradiant condition for the axion field is satisfied. The evolution of the EM photon cloud with time and azimuthal angle is obtained analytically while the cross-sectional distribution is solved numerically. The induced EM field exhibits symmetries that are markedly different from those of the background EM field. Consequently, the induced photon cloud forms an unstable bound configuration that emits EM waves to spatial infinity while being replenished by the axion cloud, providing a potential observational signature of both the presence of an axion cloud and axion-photon coupling.",
+    "published": "2025-06-19T05:20:22Z",
+    "updated": "2026-01-24T08:01:54Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.12650",
     "url": "https://arxiv.org/abs/2601.12650v1",
     "pdf_url": null,
@@ -241,6 +255,20 @@
     "abstract": "Dilatons, the CP-even pseudo-Nambu-Goldstone bosons arising from spontaneous scale symmetry breaking, offer a compelling alternative to axion-like particles (ALPs) yet lack a comprehensive low-energy framework. We address this by constructing a systematic effective field theory (EFT) for the dilaton based on a manifestly scale-invariant regularization scheme. This approach derives universal linear couplings to the trace anomaly while preserving consistent renormalization group evolution. We establish a hierarchical EFT tower connecting the ultraviolet conformal sector to the infrared, encompassing the dilaton-extended SMEFT, low-energy EFT up to dimension-7, and a chiral Lagrangian describing meson and baryon interactions. We perform a comprehensive phenomenological analysis across two distinct mass regimes, where dilaton manifests as either conventional particle or wave-like particle. For MeV-scale dilatons behaving as conventional particles, we obtain constraints from LHC production, semi-invisible $B$- and $K$-meson decays, and supernova cooling. For ultralight dilatons acting as dark matter, we project sensitivities for atomic clocks and atom interferometers. This unified EFT framework would pave the way for extended phenomenological studies across the full mass spectrum of the light dilaton.",
     "published": "2026-01-23T08:09:54Z",
     "updated": "2026-01-23T08:09:54Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.18248",
+    "url": "https://arxiv.org/abs/2601.18248v1",
+    "pdf_url": null,
+    "title": "A particle on a ring or: how I learned to stop worrying and love $θ$-vacua",
+    "authors": [
+      "Mohammad Aghaie",
+      "Ryosuke Sato"
+    ],
+    "abstract": "Recently, Ai, Cruz, Garbrecht, and Tamarit (ACGT)~\\cite{Ai:2020ptm, Ai:2024vfa, Ai:2024cnp, Ai:2025quf} claimed that there is no strong CP problem by adopting a new order of limits in the volume and topological sector. We critically examine this proposal by focusing on simple one-dimensional quantum mechanics on a ring. We demonstrate that consistent results are obtained only when one sums over all topological sectors \\textit{before} taking the large $T$ limit. This observation justifies the conventional path integral formulation of gauge theories and implies that the strong CP problem does exist in QCD.",
+    "published": "2026-01-26T08:13:33Z",
+    "updated": "2026-01-26T08:13:33Z",
     "primary_category": "hep-ph"
   }
 ]

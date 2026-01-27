@@ -44,6 +44,11 @@ https://arxiv.org/pdf/2601.16259 | 2
 https://arxiv.org/pdf/2601.09790 | 2
 
 
+###  A Photon Cloud Induced from an Axion Cloud
+
+https://arxiv.org/pdf/2506.16036 | 2
+
+
 
 #############################################   Is this Interesting ??
 
@@ -118,10 +123,12 @@ https://arxiv.org/pdf/2601.07165 | 4
 
 ### Effective Field Theory Description of Light Dilaton
 
-
 https://arxiv.org/pdf/2601.16534 | 4
 
 
+### A particle on a ring or: how I learned to stop worrying and love θ-vacua
+
+https://arxiv.org/pdf/2601.18248 | 4
 
 
 
