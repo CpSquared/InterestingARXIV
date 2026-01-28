@@ -270,5 +270,33 @@
     "published": "2026-01-26T08:13:33Z",
     "updated": "2026-01-26T08:13:33Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.18873",
+    "url": "https://arxiv.org/abs/2601.18873v1",
+    "pdf_url": null,
+    "title": "Thermoskyrmions",
+    "authors": [
+      "Mikael Chala",
+      "Juan Carlos Criado",
+      "Luis Gil"
+    ],
+    "abstract": "Skyrmions are stable and topologically non-trivial field configurations that behave like localized particles. They appear in the chiral effective theory for pions, where they correspond to the baryon states, and might also exist in the electroweak theory, in the presence of certain effective interactions. In this paper, focusing on toy models that capture different limits of the electroweak sector of the Standard Model (SM), we show that skyrmions not classically stable at zero temperature can be stabilized by thermal effects. This result motivates the study of skyrmions in the quantum effective action of the SM, potentially implying the existence of dark matter without new physics.",
+    "published": "2026-01-26T19:00:01Z",
+    "updated": "2026-01-26T19:00:01Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2601.19735",
+    "url": "https://arxiv.org/abs/2601.19735v1",
+    "pdf_url": null,
+    "title": "Strong CP and the QCD Axion: Lecture Notes via Effective Field Theory",
+    "authors": [
+      "Francesco Sannino"
+    ],
+    "abstract": "These lecture notes provide a self-contained, graduate-level introduction to the strong $CP$ problem and QCD axion physics from an effective field theory (EFT) viewpoint. We review the construction of the chiral EFT of QCD yielding a $θ$-dependent potential, from which vacuum alignment, $θ$ periodicity and branch structure follow. We further show how the framework leads to the Witten-Veneziano relation highlighting the role of the pure-glue topological susceptibility in organizing $θ$-dependent hadronic observables. Using these tools, we show how to extract representative $CP$-odd mesonic and baryonic amplitudes, including the chiral estimate underlying the neutron EDM bound, and how to generalize the effective framework to confining SU(N) theories with fermions in arbitrary representations. We further show how to employ the Veneziano-Yankielowicz effective Lagrangian for N=1 supersymmetric Yang-Mills theory to extract salient information on the $θ$-dependent physics of one-flavour QCD via orientifold planar equivalence. We also revisit a recent no strong $CP$ claim based on an ordering of limits in the sum over topological sectors and show, in the EFT language, that it amounts to introducing an extra non-propagating axion-like degree of freedom not required by QCD. We then present the standard dynamical resolution to the strong $CP$ problem, i.e. the Peccei-Quinn mechanism, the resulting axion potential and mass from chiral EFT and briefly review associated time-honored UV completions, and the axion quality problem from gravitational corrections.",
+    "published": "2026-01-27T15:55:37Z",
+    "updated": "2026-01-27T15:55:37Z",
+    "primary_category": "hep-ph"
   }
 ]
