@@ -228,6 +228,22 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2601.20767",
+    "url": "https://arxiv.org/abs/2601.20767v1",
+    "pdf_url": null,
+    "title": "Graviton energy spectra arising from the KSVZ axion model",
+    "authors": [
+      "Yonghua Wang",
+      "Lin-Yun He",
+      "Wei Chao",
+      "Yu Gao"
+    ],
+    "abstract": "Axion, the goldstone boson arising from the spontaneous breaking of a global $U(1)$ Peccei-Quinn symmetry, provides a dynamical solution to the strong CP problem and is an excellent dark matter candidate. Various experiments are designed to search for the axion, however no confirmative signal has been observed. On the other hand, there are also hypothetical heavy particles in axion models, such as the heavy scalar $s$, which is the CP-even component of the complex scalar that carries $U(1)_{PQ}$ charge, and the vector-like heavy quark (VLQ) in the Kim-Shifman-Vainshtein-Zakharov~(KSVZ) axion model. Studying signals induced by them are helpful for axion searches. In this paper, we calculate the graviton bremsstrahlung energy spectrum arising from the decay of the heavy scalar or VLQ in the KSVZ model. The result shows that these heavy particles can emit ultrahigh-frequency gravitational waves (GWs), with the peak frequency depending on the model's parameter inputs. In addition, the graviton spectrum is distinguished from the thermal GW background at high frequencies if there is an early matter-dominated era induced by these heavy particles. Future measurements of ultrahigh-frequency GWs may provide indirect evidence for the KSVZ axion.",
+    "published": "2026-01-28T16:56:15Z",
+    "updated": "2026-01-28T16:56:15Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.07165",
     "url": "https://arxiv.org/abs/2601.07165v1",
     "pdf_url": null,
