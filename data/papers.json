@@ -72,6 +72,20 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2601.19844",
+    "url": "https://arxiv.org/abs/2601.19844v1",
+    "pdf_url": null,
+    "title": "Oscillating Resonances: Imprints of ultralight dark matter at colliders",
+    "authors": [
+      "Martin Bauer",
+      "Sreemanti Chakraborti"
+    ],
+    "abstract": "In models where ultralight fields constitute dark matter, the misalignment mechanism leads to coherent, low-amplitude oscillations in fundamental constants. This effect arises from effective operators that couple dark matter to Standard Model fields. We present different models that can induce these effective operators by integrating out a mediator field. For mediator masses within the reach of collider searches, an alternative way to discover ultralight dark matter is to search for a resonance. Due to being a mediator to dark matter, the mass of the mediator oscillates. The resonance therefore, should not appear as a single isolated peak, but is smeared out once data is averaged over an oscillation cycle or more. Remarkably, the oscillation period and amplitude are in the range of current and future collider searches, even though constraints from atomic clocks probing variations of the fine-structure constant and the electron mass are very strong. We recast existing searches and projections from Belle II, LHCb and SHiP for an `oscillating resonance', and discuss how the periodicity of the signal can be used to reconstruct the peak from mass-binned data. We further show that time-stamped data would allow to unfold the signal via a fast Fourier transform and determine the significance of the signal for different background levels. The discovery of an oscillating resonance at a collider, with characteristics as predicted in ultralight dark matter scenarios, would constitute a powerful probe of dark matter's underlying nature.",
+    "published": "2026-01-27T17:50:17Z",
+    "updated": "2026-01-27T17:50:17Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.12650",
     "url": "https://arxiv.org/abs/2601.12650v1",
     "pdf_url": null,
