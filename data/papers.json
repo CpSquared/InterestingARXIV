@@ -1,5 +1,19 @@
 [
   {
+    "id": "2510.17370",
+    "url": "https://arxiv.org/abs/2510.17370v2",
+    "pdf_url": null,
+    "title": "High Quality QCD Axion in the Standard Model",
+    "authors": [
+      "Jie Sheng",
+      "Tsutomu T. Yanagida"
+    ],
+    "abstract": "Although the axion is the most compelling solution to the strong CP problem, the ad hoc introduced global Peccei-Quinn symmetry suffers from a severe fine-tuning problem known as the quality problem. In this Letter, we show that the discrete gauge symmetry $\\mathbb Z_4 \\times \\mathbb Z_3$ motivated from the internal structure of the Standard Model can naturally predict a high-quality axion, leading to a distinct and testable parameter space. Remarkably, this minimal framework simultaneously accounts for neutrino masses, baryon asymmetry, and dark matter.",
+    "published": "2025-10-20T10:07:54Z",
+    "updated": "2026-02-02T08:11:32Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.06816",
     "url": "https://arxiv.org/abs/2601.06816v1",
     "pdf_url": null,
