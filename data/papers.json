@@ -86,6 +86,21 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2602.06922",
+    "url": "https://arxiv.org/abs/2602.06922v1",
+    "pdf_url": null,
+    "title": "Parametric-Resonance Production of QCD Axions",
+    "authors": [
+      "Pirzada",
+      "Yu Gao",
+      "Qiaoli Yang"
+    ],
+    "abstract": "We demonstrate that dark matter axion production is enhanced through a natural and unavoidable mechanism: primordial temperature fluctuations periodically modulate the axion mass during the QCD phase transition, thereby triggering parametric resonance in axion field evolution. This interplay between parametric resonance and the misalignment mechanism shifts the predicted axion mass window for the observed dark matter abundance to $10^{-4}-10^{-3} \\, \\text{eV}$, displacing the canonical axion mass window to previously unexplored higher ranges.",
+    "published": "2026-02-06T18:17:29Z",
+    "updated": "2026-02-06T18:17:29Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.12650",
     "url": "https://arxiv.org/abs/2601.12650v1",
     "pdf_url": null,
