@@ -14,6 +14,23 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2602.10057",
+    "url": "https://arxiv.org/abs/2602.10057v1",
+    "pdf_url": null,
+    "title": "The Too Visible QCD Axion",
+    "authors": [
+      "Luca Di Luzio",
+      "Michele Redi",
+      "Alessandro Strumia",
+      "Andrea Tesi",
+      "Arsenii V. Titov"
+    ],
+    "abstract": "Murayama proposed a GeV-scale axion theory where the up-quark mass term is generated dynamically by the QCD chiral condensate, spontaneously breaking a Peccei-Quinn symmetry. It predicts a too large mass splitting between neutral and charged pions. Trying to solve this problem we explore extensions. Despite some partial improvements, we identify a structural obstruction: the new Peccei-Quinn spurion breaks the accidental isospin symmetry of the chiral Lagrangian, leading to an enhanced higher-order operator. As a consequence, pion scatterings too are distorted. We also examine the limit in which the axion becomes light, finding that it is excluded by fifth-force constraints.",
+    "published": "2026-02-10T18:23:20Z",
+    "updated": "2026-02-10T18:23:20Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.06816",
     "url": "https://arxiv.org/abs/2601.06816v1",
     "pdf_url": null,
