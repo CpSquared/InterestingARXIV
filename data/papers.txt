@@ -25,6 +25,11 @@
 https://arxiv.org/pdf/2510.17370 | 1
 
 
+### Inverse Electroweak Baryogenesis
+
+https://arxiv.org/pdf/2603.20414 | 1
+
+
 
 
 #############################################   Chat over a Coffee ?
@@ -68,6 +73,11 @@ https://arxiv.org/pdf/2602.10057 | 2
 ### The absence of global anomalies of CP symmetry
 
 https://arxiv.org/pdf/2602.11475 | 2
+
+
+### Non-anomalous axions: lessons from the Majoron
+
+https://arxiv.org/pdf/2602.22311 | 2
 
 
 
@@ -144,6 +154,17 @@ https://arxiv.org/pdf/2602.12345 | 3
 ### Dark higher-form fields and triangle anomalies
 
 https://arxiv.org/pdf/2602.14839 | 3
+
+
+### Exact center symmetry and first-order phase transition in QCD with three degenerate dynamical quarks
+
+https://arxiv.org/pdf/2603.22046 | 3
+
+
+### Search for QCD axion dark matter with transmon qubits and quantum circuit 
+
+https://arxiv.org/pdf/2407.19755 | 3
+
 
 
 

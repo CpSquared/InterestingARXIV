@@ -14,6 +14,21 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2603.20414",
+    "url": "https://arxiv.org/abs/2603.20414v1",
+    "pdf_url": null,
+    "title": "Inverse Electroweak Baryogenesis",
+    "authors": [
+      "Jacopo Azzola",
+      "Oleksii Matsedonskyi",
+      "Andreas Weiler"
+    ],
+    "abstract": "We propose a mechanism for baryogenesis in which the baryon asymmetry is generated as an \\emph{equilibrium response} of weak sphalerons in a region where electroweak sphaleron transitions remain unsuppressed, $h/T\\lesssim 1$. A nonzero equilibrium baryon density arises in the presence of an approximately conserved global charge $X$, carried by states with nonzero hypercharge and, after electroweak symmetry breaking, electric charge. Plasma screening enforces gauge-charge neutrality, so an $X$ asymmetry induces compensating gauge-charge densities in the Standard Model plasma, which in turn bias weak sphaleron transitions toward a state with nonvanishing baryon number. The required $X$ asymmetry is generated during a phase transition that changes the strength of electroweak symmetry breaking, but need not coincide with the final electroweak phase transition. In particular, the mechanism can operate during an inverse electroweak phase transition, where baryon number is produced behind the advancing wall, in contrast to conventional electroweak baryogenesis. Because baryon production is decoupled from a direct first-order electroweak phase transition, the scenario can be realized at parametrically higher temperatures than standard electroweak baryogenesis, thereby weakening current experimental constraints. This framework provides a qualitatively distinct route to electroweak baryogenesis, with different parametric dependence, phase-transition dynamics, and phenomenological signatures.",
+    "published": "2026-03-20T18:34:57Z",
+    "updated": "2026-03-20T18:34:57Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2601.06816",
     "url": "https://arxiv.org/abs/2601.06816v1",
     "pdf_url": null,
@@ -126,6 +141,19 @@
     "published": null,
     "updated": null,
     "primary_category": null
+  },
+  {
+    "id": "2602.22311",
+    "url": "https://arxiv.org/abs/2602.22311v1",
+    "pdf_url": null,
+    "title": "Non-anomalous axions: lessons from the Majoron",
+    "authors": [
+      "Antonio Herrero-Brocal"
+    ],
+    "abstract": "We show that when an anomalous and a non-anomalous global symmetries are spontaneously and simultaneously broken, the resulting Nambu--Goldstone boson is associated with the non-anomalous one. Applied to the Majoron, this implies that its underlying symmetry is $B-L$ rather than $L$, naturally resolving the domain wall problem. This result further demonstrates that effective couplings of the form $a \\, F \\, \\tilde{F}$ do not uniquely indicate an anomalous origin, allowing the detection of non-anomalous Nambu--Goldstone bosons, such as the Majoron, in searches for axion--gauge boson interactions, potentially serving as evidence for the existence of new charged fermions.",
+    "published": "2026-02-25T19:00:01Z",
+    "updated": "2026-02-25T19:00:01Z",
+    "primary_category": "hep-ph"
   },
   {
     "id": "2601.12650",
@@ -336,6 +364,40 @@
     "published": null,
     "updated": null,
     "primary_category": null
+  },
+  {
+    "id": "2603.22046",
+    "url": "https://arxiv.org/abs/2603.22046v1",
+    "pdf_url": null,
+    "title": "Exact center symmetry and first-order phase transition in QCD with three degenerate dynamical quarks",
+    "authors": [
+      "Gergely Endrodi",
+      "Guy D. Moore",
+      "Adam Pieczynski",
+      "Alessandro Sciarra"
+    ],
+    "abstract": "We study QCD with three degenerate flavors of dynamical quarks using first-principles lattice simulations. For a specific choice of imaginary isospin chemical potential, this theory possesses an exact center symmetry, just like pure gauge theory. This exact symmetry is expected to be intact at low temperatures and spontaneously broken in the high-temperature regime. By analyzing the finite-size scaling of the Polyakov loop distribution, obtained with a dedicated multi-histogram approach, we demonstrate that there is a first-order deconfinement phase transition in between. Our results are obtained employing stout-smeared rooted staggered quarks at one lattice spacing. Using simulations at different quark masses we sketch the behavior of QCD in the mass-isospin chemical potential plane, shedding new light on this corner of the fundamental phase diagram of the strong interactions and the relationship between chiral symmetry breaking and deconfinement.",
+    "published": "2026-03-23T14:47:52Z",
+    "updated": "2026-03-23T14:47:52Z",
+    "primary_category": "hep-lat"
+  },
+  {
+    "id": "2407.19755",
+    "url": "https://arxiv.org/abs/2407.19755v2",
+    "pdf_url": null,
+    "title": "Search for QCD axion dark matter with transmon qubits and quantum circuit",
+    "authors": [
+      "Shion Chen",
+      "Hajime Fukuda",
+      "Toshiaki Inada",
+      "Takeo Moroi",
+      "Tatsumi Nitta",
+      "Thanaporn Sichanugrist"
+    ],
+    "abstract": "We propose a direct axion dark matter (DM) search using superconducting transmon qubits as quantum sensors. With an external magnetic field applied, axion DM generates an oscillating electric field which causes the excitation of the qubit; such an excitation can be regarded as a signal of the axion DM. We provide a theoretical consideration of the excitation process of the qubits taking into account the effects of the shielding cavity surrounding the qubits and estimate the signal rate for the axion DM detection. We also discuss the enhancement of the DM signal by using cavity resonance and entangled quantum sensors realized by a quantum circuit. Combining these two effects, we can reach the parameter region suggested by QCD axion models.",
+    "published": "2024-07-29T07:36:37Z",
+    "updated": "2026-03-21T10:10:34Z",
+    "primary_category": "hep-ph"
   },
   {
     "id": "2601.07165",
