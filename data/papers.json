@@ -1,5 +1,19 @@
 [
   {
+    "id": "2604.24849",
+    "url": "https://arxiv.org/abs/2604.24849v1",
+    "pdf_url": null,
+    "title": "Accidental Peccei-Quinn Symmetry from Chiral Gauge Symmetry and Mirror QCD",
+    "authors": [
+      "Hajime Fukuda",
+      "Keisuke Harigaya"
+    ],
+    "abstract": "We present a solution to the strong CP problem in which a simple chiral U(1) gauge symmetry gives rise to an accidental Peccei-Quinn symmetry that is both explicitly and spontaneously broken by mirror QCD dynamics, yielding a framework without massless fermions or a light QCD axion. The model contains no stable domain walls or colored relics, and it accommodates a sufficiently high reheating temperature to account for the baryon asymmetry of the Universe via leptogenesis. Metastable domain walls and first-order mirror QCD phase transition generate a stochastic background of primordial gravitational waves. Additionally, one of the pseudo-Nambu-Goldstone bosons serves as a viable WIMP dark matter candidate. The gauge boson associated with the chiral U(1) gauge symmetry, which kinetically mixes with the Standard Model hypercharge gauge boson, provides a vector portal connecting dark matter to the Standard Model and plays a central role in the dark-matter phenomenology. Colored pseudo-Nambu-Goldstone bosons can be probed at the LHC through searches for dijet resonances, jets plus missing energy, multijet events with leptons, and displaced vertices.",
+    "published": "2026-04-27T18:00:02Z",
+    "updated": "2026-04-27T18:00:02Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2510.17370",
     "url": "https://arxiv.org/abs/2510.17370v2",
     "pdf_url": null,
@@ -26,6 +40,33 @@
     "abstract": "We propose a mechanism for baryogenesis in which the baryon asymmetry is generated as an \\emph{equilibrium response} of weak sphalerons in a region where electroweak sphaleron transitions remain unsuppressed, $h/T\\lesssim 1$. A nonzero equilibrium baryon density arises in the presence of an approximately conserved global charge $X$, carried by states with nonzero hypercharge and, after electroweak symmetry breaking, electric charge. Plasma screening enforces gauge-charge neutrality, so an $X$ asymmetry induces compensating gauge-charge densities in the Standard Model plasma, which in turn bias weak sphaleron transitions toward a state with nonvanishing baryon number. The required $X$ asymmetry is generated during a phase transition that changes the strength of electroweak symmetry breaking, but need not coincide with the final electroweak phase transition. In particular, the mechanism can operate during an inverse electroweak phase transition, where baryon number is produced behind the advancing wall, in contrast to conventional electroweak baryogenesis. Because baryon production is decoupled from a direct first-order electroweak phase transition, the scenario can be realized at parametrically higher temperatures than standard electroweak baryogenesis, thereby weakening current experimental constraints. This framework provides a qualitatively distinct route to electroweak baryogenesis, with different parametric dependence, phase-transition dynamics, and phenomenological signatures.",
     "published": "2026-03-20T18:34:57Z",
     "updated": "2026-03-20T18:34:57Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2505.04690",
+    "url": "https://arxiv.org/abs/2505.04690v3",
+    "pdf_url": null,
+    "title": "A Quantal Theory of Restoration of Strong CP Symmetry",
+    "authors": [
+      "Nemanja Kaloper"
+    ],
+    "abstract": "We propose a mechanism for relaxing a gauge theory CP violating phase in discrete steps to very small values. The idea is that the CP violating phase includes the magnetic dual of a $4$-form flux which can discharge by the nucleation of membranes. Inside the bubbles surrounded by the membranes, the total CP violating phase is reduced. When the bubbles are produced rapidly during radiation domination in the early universe, near the chiral symmetry breaking scale, they will collide and percolate, melting away into gauge theory radiation and dramatically relaxing CP violation.",
+    "published": "2025-05-07T18:00:01Z",
+    "updated": "2026-04-27T04:54:03Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2604.26009",
+    "url": "https://arxiv.org/abs/2604.26009v1",
+    "pdf_url": null,
+    "title": "Dissipative Losses In Black Hole-Induced Vacuum Decay",
+    "authors": [
+      "Michael Geller",
+      "Ofri Telem"
+    ],
+    "abstract": "We address the long-standing puzzle of false vacuum decay catalyzed by black holes. Naively, small black holes with large Hawking temperatures can generate highly-boosted true vacuum bubbles in the early universe and trigger vacuum decay without any exponential suppression. Working in the thin-wall regime of the $φ^4$ and sine-Gordon models, we show that radiative losses play a crucial role in decelerating these bubbles and preventing runaway vacuum decay. We find that while the production rate is enhanced compared with vacuum tunneling in some parts of the parameter space, it is always exponentially suppressed.",
+    "published": "2026-04-28T18:00:03Z",
+    "updated": "2026-04-28T18:00:03Z",
     "primary_category": "hep-ph"
   },
   {
@@ -153,6 +194,31 @@
     "abstract": "We show that when an anomalous and a non-anomalous global symmetries are spontaneously and simultaneously broken, the resulting Nambu--Goldstone boson is associated with the non-anomalous one. Applied to the Majoron, this implies that its underlying symmetry is $B-L$ rather than $L$, naturally resolving the domain wall problem. This result further demonstrates that effective couplings of the form $a \\, F \\, \\tilde{F}$ do not uniquely indicate an anomalous origin, allowing the detection of non-anomalous Nambu--Goldstone bosons, such as the Majoron, in searches for axion--gauge boson interactions, potentially serving as evidence for the existence of new charged fermions.",
     "published": "2026-02-25T19:00:01Z",
     "updated": "2026-02-25T19:00:01Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "0304043",
+    "url": "https://arxiv.org/abs/0304043",
+    "title": null,
+    "authors": [],
+    "abstract": null,
+    "published": null,
+    "updated": null,
+    "primary_category": null
+  },
+  {
+    "id": "2603.08943",
+    "url": "https://arxiv.org/abs/2603.08943v2",
+    "pdf_url": null,
+    "title": "Linking Axions, the Flavor Problem, and Neutrino Masses through a Flavored Peccei-Quinn Symmetry",
+    "authors": [
+      "Yithsbey Giraldo",
+      "Eduardo Rojas",
+      "Juan C. Salazar"
+    ],
+    "abstract": "Recent measurements by several experimental collaborations have reported deviations from Standard Model (SM) predictions in diphoton final states, potentially hinting at the existence of intermediate scalar resonances above the electroweak scale. Such anomalies can be naturally accommodated within SM extensions featuring an enlarged scalar sector. In particular, multi-Higgs doublet frameworks arise in Flavored Axion Models (FAMs), which have been proposed to explain the texture zeros of quark mass matrices. These models provide a unified description of quark masses and the Cabibbo-Kobayashi-Maskawa (CKM) mixing matrix while simultaneously addressing the strong CP problem. In this work we study a concrete FAM realization augmented with Majorana masses for right-handed neutrinos, implementing a type-I seesaw mechanism. In this model the flavor structure is effectively determined by the vacuum expectation values of the scalar doublets and Yukawa couplings of order one. Within this framework, neutrino and axion mass scales are intrinsically connected, as the heavy right-handed neutrinos obtain their masses from the scalar field responsible for the spontaneous breaking of the Peccei-Quinn symmetry. We further explore the phenomenological implications of the model, including constraints from flavor-changing neutral currents derived from semileptonic decays, as well as current experimental limits on the axion-photon coupling obtained from axion search experiments.",
+    "published": "2026-03-09T21:26:35Z",
+    "updated": "2026-04-28T00:15:33Z",
     "primary_category": "hep-ph"
   },
   {
@@ -398,6 +464,21 @@
     "published": "2024-07-29T07:36:37Z",
     "updated": "2026-03-21T10:10:34Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2604.28035",
+    "url": "https://arxiv.org/abs/2604.28035v2",
+    "pdf_url": null,
+    "title": "Topological Susceptibility and QCD at Finite Theta Angle",
+    "authors": [
+      "Claudio Bonanno",
+      "Claudio Bonati",
+      "Massimo D'Elia"
+    ],
+    "abstract": "In this chapter we provide a pedagogical introduction to the main theoretical aspects related to topology and $θ$-dependence in Quantum Chromo-Dynamics (QCD), and to their phenomenological relevance in the Standard Model ($η^\\prime$ physics, neutron electric dipole moment) and beyond (strong CP problem and the axion solution). We then provide an overview of the main analytic predictions for $θ$-dependence obtained using several different approaches (chiral effective theories, large-$N$ arguments, semiclassical methods) and their regimes of validity, as well as a selection of the most recent numerical results about QCD topology obtained via Monte Carlo simulations of the lattice-discretized theory.",
+    "published": "2026-04-30T15:47:45Z",
+    "updated": "2026-05-01T15:55:24Z",
+    "primary_category": "hep-lat"
   },
   {
     "id": "2601.07165",

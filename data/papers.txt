@@ -20,6 +20,11 @@
 #############################################   HEP Discussion    
 
 
+### Accidental Peccei-Quinn Symmetry from Chiral Gauge Symmetry and Mirror QCD
+
+https://arxiv.org/pdf/2604.24849 | 1
+
+
 ### High Quality QCD Axion in the Standard Model
 
 https://arxiv.org/pdf/2510.17370 | 1
@@ -30,9 +35,19 @@ https://arxiv.org/pdf/2510.17370 | 1
 https://arxiv.org/pdf/2603.20414 | 1
 
 
+### A Quantal Theory of Restoration of Strong CP Symmetry
+
+https://arxiv.org/pdf/2505.04690 | 1
+
+
 
 
 #############################################   Chat over a Coffee ?
+
+
+### Dissipative Losses In Black Hole-Induced Vacuum Decay
+
+https://arxiv.org/pdf/2604.26009 | 2
 
 
 ### Axion Signal Search Using Hybrid Nuclear-Electronic Spin Systems , 5 sigma sensitivity to DFSZ Axion Claim
@@ -82,6 +97,16 @@ https://arxiv.org/pdf/2602.22311 | 2
 
 
 #############################################   Is this Interesting ??
+
+
+### Cosmic Attractors and Gauge Hierarchy
+
+https://arxiv.org/pdf/hep-th/0304043 | 3
+
+
+### Linking Axions, the Flavor Problem and Neutrino Masses through a Flavored Peccei–Quinn Symmetry
+
+https://arxiv.org/pdf/2603.08943 | 3
 
 
 
@@ -169,6 +194,11 @@ https://arxiv.org/pdf/2407.19755 | 3
 
 
 #############################################   Good for Academic Reading ???
+
+
+### Topological Susceptibility and QCD at Finite Theta Angle
+
+https://arxiv.org/pdf/2604.28035 | 4
 
 
 ### Review on QCD, Topology and the Strong CP Problem
