@@ -45,6 +45,11 @@ https://arxiv.org/pdf/2505.04690 | 1
 #############################################   Chat over a Coffee ?
 
 
+### Self-Interaction Bounds on Ultralight Dark Matter Couplings to Matter
+
+https://arxiv.org/pdf/2605.03477 | 2
+
+
 ### Dissipative Losses In Black Hole-Induced Vacuum Decay
 
 https://arxiv.org/pdf/2604.26009 | 2
@@ -97,6 +102,15 @@ https://arxiv.org/pdf/2602.22311 | 2
 
 
 #############################################   Is this Interesting ??
+
+
+
+
+
+
+### Spontaneous Symmetry Breaking and the Emergent Einstein-Standard Model: From Weyl × SU(2)L × U(1)Y Gauge Theory to Geometric Mass Generation
+
+https://arxiv.org/pdf/2605.02955 | 3
 
 
 ### Cosmic Attractors and Gauge Hierarchy
@@ -194,6 +208,17 @@ https://arxiv.org/pdf/2407.19755 | 3
 
 
 #############################################   Good for Academic Reading ???
+
+
+
+### The Intrinsic and Extrinsic Hierarchy Problems
+
+https://arxiv.org/pdf/2506.05472 | 4
+
+
+### Chiral Symmetry and Its Restoration in QCD
+
+https://arxiv.org/pdf/2604.27982 | 4
 
 
 ### Topological Susceptibility and QCD at Finite Theta Angle

@@ -56,6 +56,20 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2605.03477",
+    "url": "https://arxiv.org/abs/2605.03477v1",
+    "pdf_url": null,
+    "title": "Self-Interaction Bounds on Ultralight Dark Matter Couplings to Matter",
+    "authors": [
+      "Mohammad Aghaie",
+      "Shao-Ping Li"
+    ],
+    "abstract": "Ultralight dark matter (ULDM) couplings to matter fields and ULDM self-interactions are typically treated as independent probes. However, since the ULDM-matter couplings unavoidably induce self-interactions through quantum loop corrections, bounds on self-interacting ULDM from astrophysical and cosmological observations will also limit the coupling strength to matter. Applying this argument, we find that self-interaction bounds can impose strong constraints on the linear ULDM couplings to neutrinos, excluding a large portion of parameter space that is widely considered for probing ULDM via neutrino oscillation experiments. In addition, the self-interaction bounds also limit the quadratic ULDM couplings to electrons and light quarks, which can become stronger than from the stringent test of equivalence-principle violation. Our results demonstrate that the extreme observational sensitivity of cosmic microwave background and structure formations to repulsive self-interactions can robustly translate into powerful constraints on the ULDM interactions with fundamental particles.",
+    "published": "2026-05-05T08:05:54Z",
+    "updated": "2026-05-05T08:05:54Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2604.26009",
     "url": "https://arxiv.org/abs/2604.26009v1",
     "pdf_url": null,
@@ -194,6 +208,21 @@
     "abstract": "We show that when an anomalous and a non-anomalous global symmetries are spontaneously and simultaneously broken, the resulting Nambu--Goldstone boson is associated with the non-anomalous one. Applied to the Majoron, this implies that its underlying symmetry is $B-L$ rather than $L$, naturally resolving the domain wall problem. This result further demonstrates that effective couplings of the form $a \\, F \\, \\tilde{F}$ do not uniquely indicate an anomalous origin, allowing the detection of non-anomalous Nambu--Goldstone bosons, such as the Majoron, in searches for axion--gauge boson interactions, potentially serving as evidence for the existence of new charged fermions.",
     "published": "2026-02-25T19:00:01Z",
     "updated": "2026-02-25T19:00:01Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2605.02955",
+    "url": "https://arxiv.org/abs/2605.02955v1",
+    "pdf_url": null,
+    "title": "Spontaneous Symmetry Breaking and the Emergent Einstein-Standard Model: From Weyl x SU (2)L x U (1)Y Gauge Theory to Geometric Mass Generation",
+    "authors": [
+      "Hao-Qian Peng",
+      "Yun-Tao Gu",
+      "Yu-Xiao Liu"
+    ],
+    "abstract": "We construct a Weyl x SU(2)_L x U(1)_Y invariant theory by extending four-dimensional Weyl quadratic gravity with Weyl-invariant scalar, fermion, Yukawa and gauge sectors. The quadratic structure (R^tilde - mu^2 |phi|^2)^2 allows the Weyl Goldstone mode to be extracted via a Stueckelberg mechanism independent of the Higgs field. Spontaneous breaking of Weyl gauge symmetry reduces the Weyl quadratic curvature to the Einstein-Hilbert action with a positive cosmological constant, generates a mass term for the Weyl gauge field, and simultaneously produces the Higgs potential -mu^2 |phi|^2 + lambda^2 |phi|^4, which is otherwise forbidden by the symmetry. Our framework unifies the Stueckelberg, Higgs and Yukawa mechanisms, reproduces Standard Model mass generation, and predicts additional Higgs-induced contributions to the Weyl gauge field mass, together with a set of Higgs-Weyl couplings. These interactions provide new phenomenological handles, including a vector dark matter candidate, and highlight the geometric origin of mass.",
+    "published": "2026-05-02T13:35:18Z",
+    "updated": "2026-05-02T13:35:18Z",
     "primary_category": "hep-ph"
   },
   {
@@ -464,6 +493,32 @@
     "published": "2024-07-29T07:36:37Z",
     "updated": "2026-03-21T10:10:34Z",
     "primary_category": "hep-ph"
+  },
+  {
+    "id": "2506.05472",
+    "url": "https://arxiv.org/abs/2506.05472v3",
+    "pdf_url": null,
+    "title": "The Intrinsic and Extrinsic Hierarchy Problems",
+    "authors": [
+      "James D. Wells"
+    ],
+    "abstract": "The Hierarchy Problem of elementary particle physics can be divided into two separate problems: the Intrinsic and Extrinsic Hierarchy Problems. The Intrinsic Hierarchy Problem (IHP) arises when the Wilsonian renormalization group induces a large $Λ_{\\rm UV}^2$ cutoff dependence on a much lighter scalar mass, creating a large finetuning. The Extrinsic Hierarchy Problem (EHP) arises when the IR theory is augmented with generically assumed extra states and interactions in the UV, making the resulting IR effective theory appear highly finetuned. The IHP is straightforward to analyze within a theory, but has suspicious regulator dependence, which has been suggested by some to be indication of a faux problem. The EHP is less straightforward to analyze, but has strength of physical intuition. We analyze EHP as a formal paradox, spelling out its premises and reasoning. From this we classify solutions to the EHP in terms of premise violations, and we articulate why some purported solutions to the Hierarchy Problem only partially solve the IHP and leave the EHP unaddressed.",
+    "published": "2025-06-05T18:00:06Z",
+    "updated": "2026-05-05T16:05:57Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2604.27982",
+    "url": "https://arxiv.org/abs/2604.27982v2",
+    "pdf_url": null,
+    "title": "Chiral Symmetry and Its Restoration in QCD",
+    "authors": [
+      "Teiji Kunihiro"
+    ],
+    "abstract": "We first note the peculiar property of the pion as the pseudoscalar particle, which play the essential role in realizing the basic properties of the nuclear matter such as the density/energy saturations. Then,  we introduce the notion of chirality using the Dirac equation, and show how chiralities are  mixed in the massive Dirac field with an emphasis on the similarity with the Bogoliubov-Valatin theory of superconductivity. After noting the approximate chiral symmetry in QCD in the light quark sector,  we introduce the notion of the spontaneous symmetry breaking,  and the Nambu-Goldstone theorem. A remark is given on the U(1)$_A$ anomaly and its physical consequences. Several chiral quark models of the Nambu-Jona-Lasinio type are introduced with an emphasis to the relevance to QCD, and discuss some consequences of the models. A three-flavor linear sigma model with the determinant term is examined, and discuss the origin of the mass term of the $η'$ meson. A parity-doublet model for nucleons is introduced, and the current active effort is described to construct the equation of state of nuclear and neutron-star matter incorporating the parity-doubling in the baryon sector and the occurrence of the restoration of chiral symmetry in the QCD matter. An intuitive account is given on how the chiral condensate may be reduced on the basis of Hellmann-Feynman theorem. We describe some experiments to explore the chiral restoration in hot and/or dense medium, such as the pionic atoms, lepton-pair production in relativistic-heavy-ion collisions, an attempt to produce $η'$-mesonic nuclei, and so on.",
+    "published": "2026-04-30T15:11:19Z",
+    "updated": "2026-05-02T11:42:46Z",
+    "primary_category": "nucl-th"
   },
   {
     "id": "2604.28035",
