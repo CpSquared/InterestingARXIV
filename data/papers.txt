@@ -45,6 +45,11 @@ https://arxiv.org/pdf/2505.04690 | 1
 #############################################   Chat over a Coffee ?
 
 
+### An ultra-broadband axion dark matter experiment
+
+https://arxiv.org/pdf/2605.11078 | 2
+
+
 ### Self-Interaction Bounds on Ultralight Dark Matter Couplings to Matter
 
 https://arxiv.org/pdf/2605.03477 | 2
