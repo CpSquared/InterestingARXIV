@@ -1,5 +1,21 @@
 [
   {
+    "id": "2607.27315",
+    "url": "https://arxiv.org/abs/2607.27315v1",
+    "pdf_url": null,
+    "title": "The Very Nearly Right Theory of Flavor",
+    "authors": [
+      "Nima Arkani-Hamed",
+      "Carolina Figueiredo",
+      "Lawrence J. Hall",
+      "Claudio Andrea Manzari"
+    ],
+    "abstract": "A striking empirical observation about the CKM matrix is that the angles of the unitarity triangle $(α, β, γ)$ are very close to $(π/2, π/8, 3 π/8) $, simple fractions of $π$ that are suggestive of an underlying theory linking flavor and spontaneous CP violation. However, relating this empirical observation to an underlying theory of flavor is challenging, since the unitarity triangle is a complicated function of the Yukawa matrices. In this letter we present a simple picture for the Yukawas where this direct link is possible. We begin by parametrizing the ten-dimensional space of flavor data via \"nine-link textures\", full-rank $Y_{u,d}$ matrices with a total of nine non-zero entries, with a single CP violating phase. Fitting the ten parameters of all such textures to the flavor data reveals a wonderful surprise: the CP phases cluster tightly around multiples of $π/8$! This happens because the entries of $Y_{u,d}$ naturally define a \"Yukawa triangle\", in most cases identical to the unitarity triangle at leading order in small flavor parameters. Most interestingly, these two triangles are not the same beyond leading order, yielding precise predictions for $(α, β, γ)$ with calculable deviation from $(π/2, π/8, 3 π/8)$, which can be decisively excluded or strongly confirmed by the next generation of experimental measurements of the angles. The 9-link textures are sparse and their determinants are naturally real, which taken together with spontaneous CP violation can resolve the strong CP problem.",
+    "published": "2026-07-29T18:00:00Z",
+    "updated": "2026-07-29T18:00:00Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2604.24849",
     "url": "https://arxiv.org/abs/2604.24849v1",
     "pdf_url": null,
@@ -53,6 +69,36 @@
     "abstract": "We propose a mechanism for relaxing a gauge theory CP violating phase in discrete steps to very small values. The idea is that the CP violating phase includes the magnetic dual of a $4$-form flux which can discharge by the nucleation of membranes. Inside the bubbles surrounded by the membranes, the total CP violating phase is reduced. When the bubbles are produced rapidly during radiation domination in the early universe, near the chiral symmetry breaking scale, they will collide and percolate, melting away into gauge theory radiation and dramatically relaxing CP violation.",
     "published": "2025-05-07T18:00:01Z",
     "updated": "2026-04-27T04:54:03Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2605.24090",
+    "url": "https://arxiv.org/abs/2605.24090v1",
+    "pdf_url": null,
+    "title": "Oscillating Imprints of Dark Matter in Mesons Decays",
+    "authors": [
+      "Prisco Lo Chiatto",
+      "Babette Döbrich",
+      "Gilad Perez"
+    ],
+    "abstract": "We study scenarios in which ultralight dark matter (ULDM) causes oscillations of the Cabibbo--Kobayashi--Maskawa (CKM) matrix elements, considering two frameworks. The first, previously proposed in the literature, employs the Nelson--Barr mechanism to solve the strong CP problem and the CKM phase is identified with a pseudo-Nambu--Goldstone boson. The second, inspired by Froggatt--Nielsen flavor models, relies on quadratic couplings of the ULDM to the Standard Model while naturally suppressing linear couplings. On the experimental side, we outline a strategy to search for such oscillations at flavor factories using meson decays, focusing on the NA62 experiment as the most promising candidate for discovery thanks to its large kaon statistics. We show that the sensitivity of lifetime-based observables is parametrically degraded when the total particle flux is not known exactly, leading to a substantial loss of sensitivity compared to naive estimates. We therefore advocate alternative observables based on direct counting of events, which retain the expected $1/\\sqrt{N}$ scaling and provide a robust probe of oscillating CKM elements. Our results highlight flavor experiments as a novel probe of ULDM through time-dependent signatures.",
+    "published": "2026-05-22T18:00:03Z",
+    "updated": "2026-05-22T18:00:03Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2607.27314",
+    "url": "https://arxiv.org/abs/2607.27314v1",
+    "pdf_url": null,
+    "title": "The Dark Dimension meets the Axiverse",
+    "authors": [
+      "Kevin Langhoff",
+      "Maria Ramos",
+      "Mario Reig"
+    ],
+    "abstract": "We explore the cosmological implications of combining dark dimension scenarios with an axiverse. If gauge sectors are realized on branes, towers of Kaluza-Klein (KK) excitations of closed string axions can propagate through the dark dimension in addition to the tower of graviton excitations. This modifies cosmology in two ways. First, if any of these axion towers interact with the standard model (SM) plasma, they can significantly alter the freeze-in production of the cosmological abundance of tower states. Freeze-in to graviton and axion towers can provide all of dark matter (DM) for an axion decay constant in $10^{12} \\text{ GeV }\\lesssim f_a\\lesssim 10^{16}\\,\\text{ GeV }$ and reheating temperatures $5\\text{ MeV }\\lesssim T_{\\rm RH} \\lesssim O(1)\\,\\text{ GeV }$. Second, different towers fragment into each other and redistribute energy; each tower's fraction of energy at late times is fixed by their interactions. If there are $N\\gg1$ axion towers, the energy visibly injected into the SM by any decaying tower is diluted by a factor of $N$. This suppression offers a simple realization of how dark dimension dark matter can avoid strong cosmological constraints which rule out the simplest models. In the process of this exploration we develop a continuum approach to evaluating tower fragmentation which offers insight and aids numerical calculations by reducing the problem to quadrature.",
+    "published": "2026-07-29T18:00:00Z",
+    "updated": "2026-07-29T18:00:00Z",
     "primary_category": "hep-ph"
   },
   {

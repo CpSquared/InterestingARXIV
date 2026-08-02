@@ -17,7 +17,12 @@
 
 
 
-#############################################   HEP Discussion    
+#############################################   HEP Discussion   
+
+
+### The Very Nearly Right Theory of Flavor
+
+https://arxiv.org/pdf/2607.27315 | 1
 
 
 ### Accidental Peccei-Quinn Symmetry from Chiral Gauge Symmetry and Mirror QCD
@@ -40,9 +45,17 @@ https://arxiv.org/pdf/2603.20414 | 1
 https://arxiv.org/pdf/2505.04690 | 1
 
 
+### Oscillating Imprints of Dark Matter in Mesons Decays
+
+https://arxiv.org/pdf/2605.24090 | 1
 
 
 #############################################   Chat over a Coffee ?
+
+
+### The Dark Dimension meets the Axiverse
+
+https://arxiv.org/pdf/2607.27314 | 2
 
 
 ### An ultra-broadband axion dark matter experiment
