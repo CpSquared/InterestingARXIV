@@ -50,7 +50,17 @@ https://arxiv.org/pdf/2505.04690 | 1
 https://arxiv.org/pdf/2605.24090 | 1
 
 
-#############################################   Chat over a Coffee ?
+#############################################   Chat over a Coffee ?\
+
+
+### Strong CP and Quark Mass Hierarchies from Modular Invariance
+
+https://arxiv.org/pdf/2608.13796 | 2
+
+
+### Axion Isocurvature Perturbations Survive the Scaling Evolution of Axion Domain Walls
+
+https://arxiv.org/pdf/2608.13650 | 2
 
 
 ### The Dark Dimension meets the Axiverse

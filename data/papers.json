@@ -87,6 +87,38 @@
     "primary_category": "hep-ph"
   },
   {
+    "id": "2608.13796",
+    "url": "https://arxiv.org/abs/2608.13796v1",
+    "pdf_url": null,
+    "title": "Strong $\\mathcal{CP}$ and Quark Mass Hierarchies from Modular Invariance",
+    "authors": [
+      "Xiang-Gan Liu",
+      "Michael Ratz",
+      "Alexander Stewart"
+    ],
+    "abstract": "The strong $\\mathcal{CP}$ problem and quark mass hierarchies can probe the same ultraviolet structure. We show this by extending modular strong-$\\mathcal{CP}$ solutions to non-Abelian finite modular symmetries. This reveals a previously overlooked modular-anomaly condition from the finite representations. Regularity removes the dependence of the QCD angle on the $\\mathcal{CP}$-breaking modulus, yielding $\\barθ=0$. For positive modular weight, it also forces the quark Yukawa determinant to vanish at the cusp. This leads to pronounced mass hierarchies among the quarks. We further stress that modular symmetries act as R-symmetries. Under moderate additional assumptions, this renders the QCD angle independent of the dilaton. An explicit model illustrates the mechanism.",
+    "published": "2026-08-13T21:57:13Z",
+    "updated": "2026-08-13T21:57:13Z",
+    "primary_category": "hep-ph"
+  },
+  {
+    "id": "2608.13650",
+    "url": "https://arxiv.org/abs/2608.13650v1",
+    "pdf_url": null,
+    "title": "Axion Isocurvature Perturbations Survive the Scaling Evolution of Axion Domain Walls",
+    "authors": [
+      "Naoya Kitajima",
+      "Junseok Lee",
+      "Kai Murai",
+      "Fuminobu Takahashi",
+      "Wen Yin"
+    ],
+    "abstract": "We revisit the evolution of axion domain walls seeded by inflationary fluctuations. In our previous work, we showed that such domain-wall networks retain superhorizon correlations even after entering the scaling regime. We extend our previous analysis to the case with large initial fluctuations, where many minima of the axion potential are already populated when the axion starts to oscillate. Although the conventional misalignment contribution can have suppressed long-wavelength isocurvature perturbations when many vacua are averaged over, axions produced by domain-wall collapse provide an additional contribution that can dominate when the walls enter the scaling regime before annihilation. In particular, the biased vacuum energy released during wall annihilation inherits the superhorizon correlations of the inflationary fluctuations and transfers them to the axion energy density. We find that sizable isocurvature perturbations can therefore survive even after the walls annihilate. We also discuss generic isocurvature constraints on dark matter produced by domain-wall collapse.",
+    "published": "2026-08-13T18:00:03Z",
+    "updated": "2026-08-13T18:00:03Z",
+    "primary_category": "hep-ph"
+  },
+  {
     "id": "2607.27314",
     "url": "https://arxiv.org/abs/2607.27314v1",
     "pdf_url": null,
