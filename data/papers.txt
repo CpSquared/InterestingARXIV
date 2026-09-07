@@ -20,6 +20,11 @@
 #############################################   HEP Discussion   
 
 
+### Search for dark matter particle interactions in an extended nuclear recoil energy window with the LUX-ZEPLIN (LZ) experiment
+
+https://arxiv.org/pdf/2609.02823 | 1
+
+
 ### The Very Nearly Right Theory of Flavor
 
 https://arxiv.org/pdf/2607.27315 | 1
@@ -50,7 +55,11 @@ https://arxiv.org/pdf/2505.04690 | 1
 https://arxiv.org/pdf/2605.24090 | 1
 
 
-#############################################   Chat over a Coffee ?\
+#############################################   Chat over a Coffee ?
+
+### Accessing the Wess-Zumino-Witten term using Lattice QCD
+
+https://arxiv.org/pdf/2609.05006 | 2
 
 
 ### Strong CP and Quark Mass Hierarchies from Modular Invariance
@@ -131,6 +140,13 @@ https://arxiv.org/pdf/2602.22311 | 2
 
 #############################################   Is this Interesting ??
 
+### The linear dilaton in cosmology and particle physics ( Review paper ?)
+
+https://arxiv.org/pdf/2608.16772 | 3
+
+### Axion dark matter detection via shift current
+
+https://arxiv.org/pdf/2505.17007 | 3
 
 
 ### The Gravitational Spectral Radio Forest: A Signature of Primordial Black Holes
