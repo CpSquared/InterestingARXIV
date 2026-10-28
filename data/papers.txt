@@ -57,6 +57,20 @@ https://arxiv.org/pdf/2605.24090 | 1
 
 #############################################   Chat over a Coffee ?
 
+### Can inflationary axion fluctuations dominate over misalignment?
+
+https://arxiv.org/pdf/2610.36033 | 2
+
+
+### Universal seesaw mechanism for fermion masses and strong CP problem
+
+https://arxiv.org/pdf/2607.07794 | 2
+
+
+### A Chiral Nelson-Barr Relaxion
+
+https://arxiv.org/pdf/2610.30773 | 2
+
 ### Accessing the Wess-Zumino-Witten term using Lattice QCD
 
 https://arxiv.org/pdf/2609.05006 | 2
